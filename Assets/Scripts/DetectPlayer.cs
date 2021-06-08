@@ -17,6 +17,7 @@ public class DetectPlayer : MonoBehaviour
     public GameObject firstCoinIcon1;
     public GameObject phoneIcon;
     public GameObject glueIcon;
+    public GameObject cageScreen;
     public GameObject glue;
     public bool inside;
     private string item;
@@ -125,6 +126,27 @@ public class DetectPlayer : MonoBehaviour
         }
     }
 
+    private void ifCage()
+    {
+        if (Input.GetKeyDown(KeyCode.F) && inside == true)
+        {
+            if(open != true)
+            {
+                if (item == "Cage")
+                {
+                    Debug.Log("Player picked up the: " + item);
+                    cageScreen.SetActive(true);
+                    open = true;
+                }
+            } else
+            {
+                cageScreen.SetActive(false);
+                open = false;
+            }
+            
+        }
+    }
+
     private void ifChair()
     {
         if (Input.GetKeyDown(KeyCode.F) && inside == true)
@@ -153,7 +175,6 @@ public class DetectPlayer : MonoBehaviour
         {
             if(item == "Glue")
             {
-                Debug.Log(open);
                 if (open == false)
                 {
                     glue.SetActive(true);
@@ -216,6 +237,7 @@ public class DetectPlayer : MonoBehaviour
         ifGlue();
         ifCoin();
         ifCoin1();
+        ifCage();
     }
 
 

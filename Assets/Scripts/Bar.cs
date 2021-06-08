@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using DentedPixel;
 
 public class Bar : MonoBehaviour
@@ -26,11 +27,20 @@ public class Bar : MonoBehaviour
         CheckForItems();
         OpenItems();
         CloseItems();
+        Lost();
     }
 
     public void AnimateBar()
     {
         LeanTween.scaleX(bar, 1, time);
+    }
+
+    public void Lost()
+    {
+        if (Time.time >= time)
+        {
+            SceneManager.LoadScene("Loss Scene");
+        }
     }
 
     void CheckForItems()
