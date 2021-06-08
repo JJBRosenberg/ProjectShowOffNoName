@@ -18,6 +18,7 @@ TagManager:
   - Glue
   - Coin
   - Coin1
+  - Cage
   layers:
   - Default
   - TransparentFX

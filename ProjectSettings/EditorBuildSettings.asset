@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: da572cc12b551ea4282f11698b9009b8
+  - enabled: 1
+    path: Assets/Scenes/Loss Scene.unity
+    guid: 10fce5d825e52344a87f5e5b79797e00
   m_configObjects: {}
