@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{3348a1bf-412f-497c-9ee5-623bd6db518a}">
+		<property name="name">
+			<value>Meter pitch changes</value>
+		</property>
+		<relationship name="folder">
+			<destination>{829621bc-bb13-47ae-87a3-2a87631defd5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b634b20a-b9f9-4f4e-b5b1-56927ddf0db7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b634b20a-b9f9-4f4e-b5b1-56927ddf0db7}">
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d21fa6f8-bd57-4ee4-91ae-0b4d2dd7949b}">
+		<property name="assetPath">
+			<value>Key pickup sound.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.50122448979591838</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b1defbee-4d47-4d7a-bfc4-7daaff53be2a}</destination>
+		</relationship>
+	</object>
+</objects>

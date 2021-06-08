@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3d2d3855-2e98-4b96-a410-2cd9f31b0036}">
+		<property name="assetPath">
+			<value>Lobby Time.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>193.20163265306121</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b1defbee-4d47-4d7a-bfc4-7daaff53be2a}</destination>
+		</relationship>
+	</object>
+</objects>

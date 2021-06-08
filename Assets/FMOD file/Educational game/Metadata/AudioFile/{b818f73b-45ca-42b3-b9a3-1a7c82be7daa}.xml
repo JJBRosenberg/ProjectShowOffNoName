@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b818f73b-45ca-42b3-b9a3-1a7c82be7daa}">
+		<property name="assetPath">
+			<value>Hamster sounds.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>72</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b1defbee-4d47-4d7a-bfc4-7daaff53be2a}</destination>
+		</relationship>
+	</object>
+</objects>
