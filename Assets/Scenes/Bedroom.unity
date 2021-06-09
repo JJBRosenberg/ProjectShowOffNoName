@@ -6317,8 +6317,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.095501415, y: -0.7006279, z: 0.095501415, w: 0.7006279}
-  m_LocalPosition: {x: 15.610001, y: 2.93, z: 7.81}
+  m_LocalRotation: {x: 0.09550142, y: -0.7006279, z: 0.09550142, w: 0.7006279}
+  m_LocalPosition: {x: 15.610001, y: 3.166, z: 7.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 51468472}
@@ -9993,8 +9993,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583319521}
-  m_LocalRotation: {x: 0.095501415, y: -0.7006279, z: 0.095501415, w: 0.7006279}
-  m_LocalPosition: {x: 15.610001, y: 2.93, z: 7.81}
+  m_LocalRotation: {x: 0.09550142, y: -0.7006279, z: 0.09550142, w: 0.7006279}
+  m_LocalPosition: {x: 15.610001, y: 3.166, z: 7.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2110147304}
@@ -11877,7 +11877,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d17dc04ce7aed254fa78fc9ef90b2292,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.83
+      value: 2.066
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d17dc04ce7aed254fa78fc9ef90b2292,
         type: 3}
@@ -12013,6 +12013,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KidsPhone: {fileID: 0}
   uiInventory: {fileID: 197221678}
+--- !u!143 &1820794448
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820794443}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.06559209
+  m_Radius: 0.01365315
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1820794450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d17dc04ce7aed254fa78fc9ef90b2292,
