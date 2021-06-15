@@ -14,28 +14,33 @@ public class animationStateController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        bool forwardPressed = Input.GetKey("w");
+        bool leftPressed = Input.GetKey("a");
+        bool rightPressed = Input.GetKey("d");
+        bool upPressed = Input.GetKey("space");
         // if player presses w key
-        if (Input.GetKey("w"))
+        if (forwardPressed)
         {
             // then set the isWalking boolean to be true
             animator.SetBool("isWalking", true);
         }
 
-        if (!Input.GetKey("w"))
+        if (!forwardPressed)
         {
             // then set the isWalking boolean to be false
             animator.SetBool("isWalking", false);
         }
 
         // if player presses spacebar 
-        if (Input.GetKey("space"))
+        if (upPressed)
         {
 
             // then set the isJumping boolean to be true
             animator.SetBool("isJumping", true);
         }
 
-        if (!Input.GetKey("space")) 
+        if (!upPressed) 
         {
 
             // then set the isJumping boolean to be false
@@ -43,14 +48,14 @@ public class animationStateController : MonoBehaviour
         }
 
         // if player presses a key 
-        if (Input.GetKey("a"))
+        if (leftPressed)
         {
 
             // then set the isTurningLeft boolean to be true
             animator.SetBool("isTurningLeft", true);
         }
 
-        if (!Input.GetKey("a"))
+        if ((!leftPressed) || (forwardPressed && leftPressed))
         {
 
             // then set the isTurningLeft boolean to be false
@@ -58,14 +63,14 @@ public class animationStateController : MonoBehaviour
         }
 
         // if player presses d key 
-        if (Input.GetKey("d"))
+        if (rightPressed)
         {
 
             // then set the isTurningRight boolean to be true
             animator.SetBool("isTurningRight", true);
         }
 
-        if (!Input.GetKey("d"))
+        if ((!rightPressed) || (forwardPressed && rightPressed))
         {
 
             // then set the isTurningRight boolean to be false
