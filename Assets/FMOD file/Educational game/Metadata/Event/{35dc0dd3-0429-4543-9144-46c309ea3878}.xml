@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{35dc0dd3-0429-4543-9144-46c309ea3878}">
 		<property name="name">
 			<value>Chest opening sound </value>

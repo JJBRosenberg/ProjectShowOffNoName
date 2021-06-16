@@ -10231,7 +10231,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0089585, y: 1}
+    m_SensorSize: {x: 1.0112045, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -10873,9 +10873,9 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   Params: []
-  OverrideAttenuation: 1
+  OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 1.6
+  OverrideMaxDistance: 20
 --- !u!1001 &1695522604
 PrefabInstance:
   m_ObjectHideFlags: 0

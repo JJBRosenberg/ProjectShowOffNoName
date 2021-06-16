@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{557bb55e-4c3e-484e-a708-c37386766072}">
 		<property name="name">
 			<value>Metal pickup sound</value>

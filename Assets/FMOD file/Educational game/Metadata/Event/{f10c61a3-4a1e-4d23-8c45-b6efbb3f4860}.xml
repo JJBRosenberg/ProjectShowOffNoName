@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f10c61a3-4a1e-4d23-8c45-b6efbb3f4860}">
 		<property name="name">
 			<value>Notification sound</value>
