@@ -26,23 +26,7 @@ public class UI_Inventory : MonoBehaviour
 
     private void RefreshInventoryItems()
     {
-        foreach (Item item in inventory.GetItemList())
-        {
-            int x = 0;
-            int y = 0;
-            //float itemSlotCellSize = 30f;
-            RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
-            itemSlotRectTransform.gameObject.SetActive(true);
-            //itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
-            x++;
-            Image image = itemSlotRectTransform.GetComponent<Image>();
-            image.sprite = item.GetSprite();
-            if (x > 4)
-            {
-                x = 0;
-                y++;
-            }
-        }
+        
     }
 
 }

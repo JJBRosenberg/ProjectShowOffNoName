@@ -28,7 +28,6 @@ namespace FMODUnity
 
         void OnEnable()
         {
-            serializedSettings = new SerializedObject(Settings.Instance);
             cooldown = serializedSettings.FindProperty("BankRefreshCooldown");
             showWindow = serializedSettings.FindProperty("ShowBankRefreshWindow");
 
