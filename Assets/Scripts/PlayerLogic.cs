@@ -14,10 +14,6 @@ public class PlayerLogic : MonoBehaviour
     [SerializeField] private UI_Inventory uiInventory;
     private void Start()
     {
-        phone = GameObject.FindWithTag("Phone");
-        inventory = new Inventory();
-        uiInventory.SetInventory(inventory);
-
     }
     private void Update()
     {

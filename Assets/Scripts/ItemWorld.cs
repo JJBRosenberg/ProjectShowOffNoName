@@ -8,6 +8,7 @@ public class ItemWorld : MonoBehaviour
     {
         Transform transform = Instantiate(ItemAssets.Instance.Phone, position, Quaternion.identity);
         ItemWorld itemWorld = transform.GetComponent<ItemWorld>();
+        itemWorld.SetItem(item);
         return itemWorld;
     }
 
@@ -19,6 +20,10 @@ public class ItemWorld : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    public void SetItem(Item item)
+    {
+
+    }
 
     public Item GetItem()
     {
