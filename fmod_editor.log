@@ -16,15 +16,15 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          : Hamster sounds (000001FA2E1D0068)
-[LOG] SoundI::release                          :     Hamster sounds (000001F72D2D1808)
-[LOG] SoundI::release                          :     Hamster sounds (000001FA2E1D1D18)
-[LOG] SoundI::release                          : Lobby Time (000001FA2E1CFB58)
-[LOG] SoundI::release                          :     Lobby Time (000001F72D2D1668)
-[LOG] SoundI::release                          :     Lobby Time (000001FA2E1CFEB8)
-[LOG] SoundI::release                          : Aquarium water (000001FA2E1D03C8)
-[LOG] SoundI::release                          :     Aquarium water (000001F72D2CCEE8)
-[LOG] SoundI::release                          :     Aquarium water (000001FA2E1D0728)
+[LOG] SoundI::release                          : Hamster sounds (000001FA2E1D3818)
+[LOG] SoundI::release                          :     Hamster sounds (000001FA2CF8CB28)
+[LOG] SoundI::release                          :     Hamster sounds (000001FA2E1D14A8)
+[LOG] SoundI::release                          : Lobby Time (000001FA2E1D1658)
+[LOG] SoundI::release                          :     Lobby Time (000001FA2CF90408)
+[LOG] SoundI::release                          :     Lobby Time (000001FA2E1D19B8)
+[LOG] SoundI::release                          : Aquarium water (000001FA2E1D1D18)
+[LOG] SoundI::release                          :     Aquarium water (000001FA2CF8FF28)
+[LOG] SoundI::release                          :     Aquarium water (000001FA2E1D3D28)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
