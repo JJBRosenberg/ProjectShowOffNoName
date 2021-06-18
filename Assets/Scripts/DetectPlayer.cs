@@ -104,8 +104,10 @@ public class DetectPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && inside == true)
         {
+            Debug.Log("!");
             if (item == "Chest")
             {
+                Debug.Log("2");
                 if (doneToys != true)
                 {
                     if (isToys != true)
