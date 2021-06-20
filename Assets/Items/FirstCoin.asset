@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1829389d369da694183ef9f5c0bd4b42, type: 3}
   m_Name: FirstCoin
   m_EditorClassIdentifier: 
+  id: c6455c9e51c862144add0fd10671ef74
   ItemName: FirstCoin
-  Icon: {fileID: 21300000, guid: 50145a0fe9e9d9042a321a026791d990, type: 3}
+  Icon: {fileID: 21300000, guid: 6e1c30e38abc9114a931c6760bbca24a, type: 3}
+  MaximumStacks: 1

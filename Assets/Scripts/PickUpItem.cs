@@ -3,11 +3,16 @@
 public class PickUpItem : MonoBehaviour
 {
     [SerializeField] Item item;
+    [SerializeField] public GameObject itemModel;
     [SerializeField] Inventory inventory;
     [SerializeField] int amount = 1;
     private bool isInRange;
     private bool isEmpty;
 
+    private void Awake()
+    {
+
+    }
     private void OnValidate()
     {
         if (inventory == null)
@@ -22,29 +27,32 @@ public class PickUpItem : MonoBehaviour
                 Item itemCopy = item.GetCopy();
                 if (inventory.AddItem(itemCopy))
                 {
-                    if (amount == 0)
-                    {
+                    Debug.Log("YEs");
+                    amount--;
+                    isEmpty = true;
+                    itemModel.SetActive(false);
 
-
-                        amount--;
-                        isEmpty = true;
-
-                    }
                 }
                 else itemCopy.Destroy();
-                
+
             }
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
+        {
             isInRange = true;
+            Debug.Log("Can interact with: " + item.ID);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Player")
+        {
             isInRange = false;
+            Debug.Log("Cannot interact with: " + item.ID);
+        }
     }
 }

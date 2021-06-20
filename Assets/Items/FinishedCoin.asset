@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: f9995c25381dbbc4da0fdaa5c70f73bc
   ItemName: FinishedCoin
-  Icon: {fileID: 21300000, guid: 3b152454644cc934388d21494111fb9f, type: 3}
+  Icon: {fileID: 21300000, guid: 50c0a9ff4ec088e4e94850789b35b514, type: 3}
+  MaximumStacks: 1

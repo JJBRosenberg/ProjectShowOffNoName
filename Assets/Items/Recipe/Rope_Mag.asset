@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b2ba5855b109e4dbbbae388449e14b, type: 3}
+  m_Name: Rope_Mag
+  m_EditorClassIdentifier: 
+  Materials:
+  - Item: {fileID: 11400000, guid: d9c01d84acfe1ad4da418d77e9a750b0, type: 2}
+    Amount: 1
+  - Item: {fileID: 11400000, guid: 911a222d150338c49a8bcf7fe69f135c, type: 2}
+    Amount: 1
+  Results:
+  - Item: {fileID: 11400000, guid: af136629d73f0d64c9dc39aa0b0bd58f, type: 2}
+    Amount: 1
