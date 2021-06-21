@@ -16,6 +16,8 @@ public class BaseItemSlot : MonoBehaviour,  IPointerEnterHandler, IPointerExitHa
     public Color disabledColor = Color.clear;
 
     private Item _item;
+
+    //Gets the sprite Icon if there is one
     public Item Item
     {
         get { return _item; }
@@ -35,7 +37,7 @@ public class BaseItemSlot : MonoBehaviour,  IPointerEnterHandler, IPointerExitHa
             }
         }
     }
-
+    //checks for the amount only needs 1
     private int _amount;
     public int Amount
     {
@@ -45,6 +47,7 @@ public class BaseItemSlot : MonoBehaviour,  IPointerEnterHandler, IPointerExitHa
             _amount = value;
         }
     }
+    //fils in the image in the inspector
     protected virtual void OnValidate()
     {
         if (image == null)
@@ -60,7 +63,7 @@ public class BaseItemSlot : MonoBehaviour,  IPointerEnterHandler, IPointerExitHa
     {
         return false;
     }
-
+    //mouse events
     public virtual void OnPointerEnter(PointerEventData eventData)
     {
         if (OnPointerEnterEvent != null)

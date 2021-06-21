@@ -25,6 +25,7 @@ public class CraftingWindow : MonoBehaviour
 	{
 		Init();
 
+		//records the mouse events
 		foreach (CraftingRecipeUI craftingRecipeUI in craftingRecipeUIs)
 		{
 			craftingRecipeUI.OnPointerEnterEvent += OnPointerEnterEvent;
@@ -34,10 +35,12 @@ public class CraftingWindow : MonoBehaviour
 
 	private void Init()
 	{
+		//find the parent object to the get componone of the children UIs for recipes
 		recipeUIParent.GetComponentsInChildren<CraftingRecipeUI>(includeInactive: true, result: craftingRecipeUIs);
 		UpdateCraftingRecipes();
 	}
 
+	//updates the recipis to the UI
 	public void UpdateCraftingRecipes()
 	{
 		for (int i = 0; i < CraftingRecipes.Count; i++)

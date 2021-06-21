@@ -8,7 +8,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 
 
 
-
+	//adds the items to the inventory panel
 	public virtual bool AddItem(Item item)
 	{
 		for (int i = 0; i < itemSlots.Length; i++)
@@ -23,6 +23,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 		return false;
 	}
 
+	//removes the items to the inventory panel
 	public virtual bool RemoveItem(Item item)
 	{
 		for (int i = 0; i < itemSlots.Length; i++)
@@ -37,6 +38,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 		return false;
 	}
 
+	//removes the items to the inventory panel using ID
 	public virtual Item RemoveItem(string itemID)
 	{
 		for (int i = 0; i < itemSlots.Length; i++)
@@ -51,7 +53,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 		}
 		return null;
 	}
-
+	//Checks how many items are i the slot
 	public virtual int ItemCount(Item item)
 	{
 		int number = 0;
@@ -65,7 +67,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 		}
 		return number;
 	}
-
+	//CLears all item slots
 	public void Clear()
 	{
 		for (int i = 0; i < itemSlots.Length; i++)
@@ -78,7 +80,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 			itemSlots[i].Amount = 0;
 		}
 	}
-
+	//checks if the itemslots are full
     public virtual bool IsFull()
     {
         for(int i = 0; i < itemSlots.Length; i++)
@@ -90,14 +92,13 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
         }
 		return true;
     }
-
+	//checks if an item slot contains an item
     public bool ContainsItem(Item item)
     {
-		int number = 0;
 
 		for (int i = 0; i < itemSlots.Length; i++)
 		{ 
-			if (item != null && item== item)
+			if (item != null )
 			{
 				return true;
 			}

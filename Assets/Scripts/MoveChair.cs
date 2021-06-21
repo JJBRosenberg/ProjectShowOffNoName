@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveChair : MonoBehaviour
 {
-    public Transform newChair;
+    public Vector3 newChair;
     private bool isInRange;
     [SerializeField] public GameObject oldChair;
     // Start is called before the first frame update
@@ -17,7 +17,8 @@ public class MoveChair : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isInRange)
         {
-            oldChair.gameObject.transform.position = newChair.position;
+
+
         }
     }
 

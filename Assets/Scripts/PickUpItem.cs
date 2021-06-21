@@ -9,15 +9,15 @@ public class PickUpItem : MonoBehaviour
     private bool isInRange;
     private bool isEmpty;
 
-    private void Awake()
-    {
-
-    }
+    //finds the invetory
     private void OnValidate()
     {
         if (inventory == null)
             inventory = FindObjectOfType<Inventory>();
     }
+
+
+    //adds the item to the inventory removes model
     private void Update()
     {
         if (isInRange && Input.GetKeyDown(KeyCode.E))
