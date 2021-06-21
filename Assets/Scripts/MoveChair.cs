@@ -6,7 +6,8 @@ public class MoveChair : MonoBehaviour
 {
     public Vector3 newChair;
     private bool isInRange;
-    [SerializeField] public GameObject oldChair;
+    public GameObject oldChair;
+    private bool isPushed;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +16,11 @@ public class MoveChair : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isInRange)
+        if (Input.GetKeyDown(KeyCode.E) && isInRange && !isPushed)
         {
-
-
+            Debug.Log("moveChair");
+            oldChair.transform.position += newChair;
+            isPushed = true;
         }
     }
 
