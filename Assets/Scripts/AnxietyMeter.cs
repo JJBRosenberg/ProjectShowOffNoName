@@ -10,6 +10,7 @@ public class AnxietyMeter : MonoBehaviour
     private Image spriteRenderer;
     public Sprite[] newSprite;
     public otherMovement playerSpeed;
+    public Image overLay;
 
     public void Start()
     {
@@ -44,10 +45,12 @@ public class AnxietyMeter : MonoBehaviour
         {
             spriteRenderer.sprite = newSprite[5];
             playerSpeed.bigSpeed();
+            overLay.gameObject.SetActive(false);
         }
         if (anxiety >= 6 && anxiety < 7)
         {
             spriteRenderer.sprite = newSprite[6];
+            overLay.gameObject.SetActive(true);
             playerSpeed.SmallSpeed();
         }
     }
