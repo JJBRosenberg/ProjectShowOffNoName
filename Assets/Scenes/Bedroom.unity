@@ -252,6 +252,18 @@ MonoBehaviour:
   taken: 0
   inside: 0
   CraftingTable: {fileID: 1217346347}
+--- !u!114 &43033658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4385955258920549301, guid: c42aa26fbd550f74387a973b02c9f025,
+    type: 3}
+  m_PrefabInstance: {fileID: 816341633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5251f009b9e6d8b47a129bce1d0df2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &43530810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7358,7 +7370,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.98208266, y: 1}
+    m_SensorSize: {x: 0.9831933, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -21128,6 +21140,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 67ff94c3b6ab2144aad598f27cc173d6, type: 3}
   - {fileID: 21300000, guid: 08ccc7cbba4d7e6478f22ab48537295f, type: 3}
   - {fileID: 21300000, guid: f3ddc255870f7354ba9937a82e5a3d8a, type: 3}
+  playerSpeed: {fileID: 43033658}
 --- !u!1001 &1796780325
 PrefabInstance:
   m_ObjectHideFlags: 0

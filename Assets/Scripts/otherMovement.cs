@@ -5,10 +5,18 @@ using UnityEngine;
 public class otherMovement : MonoBehaviour
 {
     public float Speed = 3.0F;
+    private float slowSpeed;
+    private float originalSpeed;
     private float gravity = 20;
     public float RotateSpeed = 3.0F;
     public float jumpSpeed = 8.0F;
     private Vector3 moveDirection = Vector3.zero;
+
+    private void Start()
+    {
+        originalSpeed = Speed;
+        slowSpeed = Speed * 0.2f;
+    }
     void Update()
     {
         transform.Rotate(0, Input.GetAxis("Horizontal") * RotateSpeed * Time.deltaTime, 0);
@@ -31,5 +39,15 @@ public class otherMovement : MonoBehaviour
         // convert velocity to displacement and move character:
         controller.Move(moveDirection * Time.deltaTime);
     }
+
+    public void SmallSpeed()
+    {
+        Speed = slowSpeed;
+    }
+    public void bigSpeed()
+    {
+        Speed = originalSpeed;
+    }
+
 
 }

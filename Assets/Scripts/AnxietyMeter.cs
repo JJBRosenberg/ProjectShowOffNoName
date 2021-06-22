@@ -9,14 +9,17 @@ public class AnxietyMeter : MonoBehaviour
     private bool isPhonedClicked;
     private Image spriteRenderer;
     public Sprite[] newSprite;
+    public otherMovement playerSpeed;
 
     public void Start()
     {
+        playerSpeed = FindObjectOfType<otherMovement>();
         spriteRenderer = gameObject.GetComponent<Image>();
     }
 
     private void Update()
     {
+        
         if (anxiety < 1)
         {
             spriteRenderer.sprite = newSprite[0];
@@ -37,9 +40,15 @@ public class AnxietyMeter : MonoBehaviour
         {
             spriteRenderer.sprite = newSprite[4];
         }
-        if (anxiety >= 5 && anxiety < 6)
+        if (anxiety >= 5  && anxiety < 6)
         {
             spriteRenderer.sprite = newSprite[5];
+            playerSpeed.bigSpeed();
+        }
+        if (anxiety >= 6 && anxiety < 7)
+        {
+            spriteRenderer.sprite = newSprite[6];
+            playerSpeed.SmallSpeed();
         }
     }
 
@@ -76,11 +85,13 @@ public class AnxietyMeter : MonoBehaviour
     }
     void AnxietyUp()
     {
+        if(anxiety !< 6)
         anxiety += 1;
     }
 
     void AnxietyDown()
     {
+        Debug.Log("mmmm");
         anxiety -= 1;
     }
 }
