@@ -15,6 +15,8 @@ public class Bar : MonoBehaviour
     private bool gottenPhone;
     private bool gottenTablet;
     private bool gottenComputer;
+    private int maxAnxiety = 20;
+    private bool isPhonedUsed;
     private void Start()
     {
         AnimateBar();
@@ -28,6 +30,16 @@ public class Bar : MonoBehaviour
         OpenItems();
         CloseItems();
         Lost();
+    }
+    public void phoneClicked()
+    {
+        if (isPhonedUsed = false)
+        {
+            isPhonedUsed = true;
+        } else
+        {
+            isPhonedUsed = false;
+        }
     }
 
     public void AnimateBar()
@@ -79,7 +91,17 @@ public class Bar : MonoBehaviour
             computer.gameObject.SetActive(true);
         }
     }
+    IEnumerator TimerCoroutine()
+    {
 
+        float anxiety = 0;
+
+        while (anxiety <= maxAnxiety)
+        {
+            anxiety += Time.deltaTime;
+            yield return null;
+        }
+    }
     void CloseItems()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -90,4 +112,5 @@ public class Bar : MonoBehaviour
 
         }
     }
+    
 }

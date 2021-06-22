@@ -16,15 +16,18 @@ public class biggerPhone : MonoBehaviour
 
     public void ifClicked()
     {
+
         if (!isClicked)
         {
-            image.rectTransform.sizeDelta = new Vector2(100, 100) ;
-            isClicked = true;
-        } else
-        {
             image.rectTransform.sizeDelta = new Vector2(150, 150);
+            isClicked = true;
+            Debug.Log("Opened");
+        } else if (isClicked)
+        {
+            image.rectTransform.sizeDelta = new Vector2(100, 100) ;
             isClicked = false;
-        }
+            Debug.Log("Closed");
+        } 
     }
 
 }
