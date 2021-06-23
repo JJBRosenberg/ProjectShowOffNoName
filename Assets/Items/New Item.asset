@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1829389d369da694183ef9f5c0bd4b42, type: 3}
-  m_Name: Hamster
+  m_Name: New Item
   m_EditorClassIdentifier: 
-  id: df93b0c145736fc43a97700ed6454aae
+  id: cd94b50ffd7a6ee47864d76a5cc350b6
   ItemName: hamster
   Icon: {fileID: 21300000, guid: 262b58cba1ad8b44b989c9e14d399477, type: 3}
   MaximumStacks: 1

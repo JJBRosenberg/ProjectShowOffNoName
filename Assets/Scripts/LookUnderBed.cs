@@ -35,11 +35,13 @@ public class LookUnderBed : ItemContainer
             underBed.SetActive(true);
             isOpened = true;
             Debug.Log("opened");
-            itHappened();
+            StartCoroutine(itHappened());
         }
         if (isInRange && Input.GetKeyDown(KeyCode.R) && isOpened)
         {
             underBed.SetActive(false);
+            underBedNoHamster.SetActive(false);
+            underBedNoHamsterNoscrewDriver.SetActive(false);
             isOpened = false;
             Debug.Log("closed");
         }
@@ -49,6 +51,7 @@ public class LookUnderBed : ItemContainer
         if(isOpened && Input.GetKeyDown(KeyCode.E) && itemContainer.ContainsItem(hamster))
         {
             yield return new WaitForSeconds(3);
+            Debug.Log("Hello");
             underBed.SetActive(false);
             underBedNoHamster.SetActive(true);
             yield return new WaitForSeconds(3);
