@@ -114,7 +114,7 @@ public class DetectPlayer : MonoBehaviour
                     {
                         Debug.Log("CHest");
                         isToys = true;
-                        chest.SetActive(true);
+                        //chest.SetActive(true);
                         //show puzzle
                         isChest = true;
                     }
