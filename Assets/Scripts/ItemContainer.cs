@@ -98,7 +98,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 
 		for (int i = 0; i < itemSlots.Length; i++)
 		{ 
-			if (item != null )
+			if (itemSlots[i].Item == item )
 			{
 				return true;
 			}
