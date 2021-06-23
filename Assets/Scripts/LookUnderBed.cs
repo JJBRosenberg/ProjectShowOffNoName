@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LookUnderBed : MonoBehaviour
+public class LookUnderBed : ItemContainer
 {
     [SerializeField] private GameObject underBed;
     [SerializeField] private bool isInRange;
@@ -25,7 +25,7 @@ public class LookUnderBed : MonoBehaviour
 
     private void Update()
     {
-        if(isInRange && Input.GetKeyDown(KeyCode.E) && isOpened == false)
+        if (isInRange && Input.GetKeyDown(KeyCode.E) && isOpened == false)
         {
             underBed.SetActive(true);
             isOpened = true;
@@ -38,4 +38,5 @@ public class LookUnderBed : MonoBehaviour
             Debug.Log("closed");
         }
     }
+
 }

@@ -30,7 +30,6 @@ public class CraftingRecipeUI : MonoBehaviour
 
 	private void Start()
 	{
-		ItemContainer = FindObjectOfType<ItemContainer>();
 		foreach (BaseItemSlot itemSlot in itemSlots)
 		{
 			itemSlot.OnPointerEnterEvent += OnPointerEnterEvent;

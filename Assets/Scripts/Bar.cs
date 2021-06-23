@@ -10,6 +10,9 @@ public class Bar : MonoBehaviour
     public GameObject phoneScreen;
     public GameObject tablet;
     public GameObject computer;
+    public GameObject firstModel;
+    public GameObject secondModel;
+    public GameObject thirdModel;
     public int time;
     private GameObject phone;
     private bool gottenPhone;
@@ -30,6 +33,7 @@ public class Bar : MonoBehaviour
         OpenItems();
         CloseItems();
         Lost();
+        //CheckTime();
     }
     public void phoneClicked()
     {
@@ -101,6 +105,31 @@ public class Bar : MonoBehaviour
             anxiety += Time.deltaTime;
             yield return null;
         }
+    }
+
+    public void CheckTime()
+    {
+        if (time <100)
+        {
+            firstModel.gameObject.SetActive(true);
+            secondModel.gameObject.SetActive(false);
+            thirdModel.gameObject.SetActive(false);
+        }
+
+        if (time >= 100 && time < 200)
+        {
+            firstModel.gameObject.SetActive(false);
+            secondModel.gameObject.SetActive(true);
+            thirdModel.gameObject.SetActive(false);
+        }
+        if (time >= 200)
+        {
+            firstModel.gameObject.SetActive(true);
+            secondModel.gameObject.SetActive(false);
+            thirdModel.gameObject.SetActive(true);
+        }
+
+
     }
     void CloseItems()
     {
