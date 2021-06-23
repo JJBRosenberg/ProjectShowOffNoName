@@ -1132,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 805652882880785465, guid: 5973dfdd0c1414746941a7920bf555e0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 805652882880785465, guid: 5973dfdd0c1414746941a7920bf555e0,
         type: 3}
@@ -7688,7 +7688,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.0868348, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7704,7 +7704,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734454765}
-  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
+  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8798,7 +8798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.2999878, y: -139.4}
+  m_AnchoredPosition: {x: -2.25, y: -139.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796064668
@@ -10580,7 +10580,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
+  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -17877,7 +17877,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSlots: []
   underBed: {fileID: 403503917}
+  underBedNoHamster: {fileID: 0}
+  underBedNoHamsterNoscrewDriver: {fileID: 0}
   isInRange: 0
+  itemContainer: {fileID: 87122403}
+  hamster: {fileID: 11400000, guid: df93b0c145736fc43a97700ed6454aae, type: 2}
+  screwDriver: {fileID: 11400000, guid: a69cc683acbd4ce4ab5b96c66ad70e1e, type: 2}
 --- !u!65 &1467656603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18646,7 +18651,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507918834}
-  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
+  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -18665,7 +18670,6 @@ GameObject:
   - component: {fileID: 1510496482}
   - component: {fileID: 1510496481}
   - component: {fileID: 1510496480}
-  - component: {fileID: 1510496479}
   m_Layer: 0
   m_Name: HamsterCage
   m_TagString: Untagged
@@ -18687,21 +18691,6 @@ Transform:
   m_Father: {fileID: 323771190}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1510496479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510496477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82a179c18e8d364468b4eadc83ac4826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemSlots: []
-  underBed: {fileID: 403503917}
-  isInRange: 0
 --- !u!65 &1510496480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21700,7 +21689,7 @@ RectTransform:
   m_LocalScale: {x: 1.0233197, y: 1.1021634, z: 0.26247042}
   m_Children: []
   m_Father: {fileID: 1904847593}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -23033,8 +23022,8 @@ RectTransform:
   - {fileID: 1217346350}
   - {fileID: 1490147766}
   - {fileID: 884624414}
-  - {fileID: 1481732229}
   - {fileID: 1795341181}
+  - {fileID: 1481732229}
   - {fileID: 832251548}
   - {fileID: 1944424505}
   - {fileID: 784356501}
