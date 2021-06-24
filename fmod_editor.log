@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000025163C0BD18 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000025163C11508 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,15 +16,15 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          : Hamster sounds (0000025102650408)
-[LOG] SoundI::release                          :     Hamster sounds (00000250FE4C01B8)
-[LOG] SoundI::release                          :     Hamster sounds (0000025189D87338)
-[LOG] SoundI::release                          : Lobby Time (00000251026500A8)
-[LOG] SoundI::release                          :     Lobby Time (00000250FE4C0018)
-[LOG] SoundI::release                          :     Lobby Time (0000025189D88418)
-[LOG] SoundI::release                          : Aquarium water (00000251EBA2DC58)
-[LOG] SoundI::release                          :     Aquarium water (00000250FE4BE618)
-[LOG] SoundI::release                          :     Aquarium water (0000025189D88AD8)
+[LOG] SoundI::release                          : Hamster sounds (00000251C60A8528)
+[LOG] SoundI::release                          :     Hamster sounds (00000250FE4BCA78)
+[LOG] SoundI::release                          :     Hamster sounds (0000025189D8A5D8)
+[LOG] SoundI::release                          : Lobby Time (00000250FE802C48)
+[LOG] SoundI::release                          :     Lobby Time (00000250FE4BEC98)
+[LOG] SoundI::release                          :     Lobby Time (0000025189D89348)
+[LOG] SoundI::release                          : Aquarium water (00000250FE802738)
+[LOG] SoundI::release                          :     Aquarium water (00000250FE4BE7B8)
+[LOG] SoundI::release                          :     Aquarium water (00000250FF424078)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
