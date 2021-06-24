@@ -108,8 +108,7 @@ public class DetectPlayer : MonoBehaviour
             if (item == "Chest")
             {
                 Debug.Log("2");
-                if (doneToys != true)
-                {
+               
                     if (isToys != true)
                     {
                         Debug.Log("CHest");
@@ -123,7 +122,7 @@ public class DetectPlayer : MonoBehaviour
                         chest.SetActive(false);
                         isToys = false;
                     }
-                }
+                
             }
         }
     }

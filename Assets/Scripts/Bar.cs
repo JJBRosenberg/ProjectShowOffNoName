@@ -93,7 +93,6 @@ public class Bar : MonoBehaviour
     public void CheckTime()
     {
         
-        Debug.Log(Time.time);
         if (Time.time <100 && !firstTurned)
         {
             firstModel.gameObject.SetActive(true);
