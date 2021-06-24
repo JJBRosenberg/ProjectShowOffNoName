@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class TryAgain : MonoBehaviour
 {
     public void Clicky()
-    {
+    { 
+        Debug.Log("hello");
         SceneManager.LoadScene("Bedroom");
     }
 }
