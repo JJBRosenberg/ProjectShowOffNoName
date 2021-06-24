@@ -37,7 +37,7 @@ public class LookUnderBed : ItemContainer
             Debug.Log("opened");
             StartCoroutine(itHappened());
         }
-        if (isInRange && Input.GetKeyDown(KeyCode.R) && isOpened)
+        if (Input.GetKeyDown(KeyCode.R) && isOpened)
         {
             underBed.SetActive(false);
             underBedNoHamster.SetActive(false);
