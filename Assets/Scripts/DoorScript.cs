@@ -6,12 +6,18 @@ public class DoorScript : MonoBehaviour
 {
     public  bool doorKey;
     public bool open;
-    public bool close;
+    [SerializeField] bool close;
     public bool inTrigger;
     public ItemContainer itemContainer;
     [SerializeField] Item screwDriver;
-    private bool glueGone;
+    [SerializeField] BoxCollider boxy;
+    private bool glueGone; 
+    public MeshRenderer PLS;
 
+    private void Start()
+    {
+        close = true;
+    }
 
     //Checks if player entered 
     private void OnTriggerEnter(Collider other)
@@ -44,32 +50,22 @@ public class DoorScript : MonoBehaviour
                     //if the player presses E
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        open = true;
+                        PLS.enabled = false;
+                        boxy.enabled = false;
                         close = false;
+                        open = true;
                     }
                 }
-            }
-            else
-            { // if its closed
+            } else
+            {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    PLS.enabled = true;
+                    boxy.enabled = true;
                     close = true;
                     open = false;
                 }
             }
-            if (open)
-            {
-                //Closes the door
-                var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 200);
-                transform.rotation = newRot;
-            }
-            else
-            {
-                //oopens the door
-                var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 0.0f, 0.0f), Time.deltaTime * 200);
-                transform.rotation = newRot;
-            }
-
         }
         
         }
