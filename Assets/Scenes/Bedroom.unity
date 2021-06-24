@@ -7431,6 +7431,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1904847593}
     m_Modifications:
+    - target: {fileID: 2801275222554018215, guid: cd63d6154a7adfd4ab11d16f44ab9dd9,
+        type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b4f1fd771ee4d14eb13ea1fbf4b8841,
+        type: 3}
+    - target: {fileID: 2801275222554018215, guid: cd63d6154a7adfd4ab11d16f44ab9dd9,
+        type: 3}
+      propertyPath: sprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cca4a9d42129b24799b4aba80d3e303,
+        type: 3}
+    - target: {fileID: 2801275222554018215, guid: cd63d6154a7adfd4ab11d16f44ab9dd9,
+        type: 3}
+      propertyPath: sprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b4ac8a8c3201ad844a6ba3449f589198,
+        type: 3}
     - target: {fileID: 2801275222554018221, guid: cd63d6154a7adfd4ab11d16f44ab9dd9,
         type: 3}
       propertyPath: m_Pivot.x
