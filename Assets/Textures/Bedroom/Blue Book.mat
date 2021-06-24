@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8138777604063786239
+--- !u!114 &-2678119350724894105
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Kitchen Counter 2
+  m_Name: Blue Book
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP
     _PARALLAXMAP
@@ -35,11 +35,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 21756d9acc991cf4abbb2fc21d46c353, type: 3}
+        m_Texture: {fileID: 2800000, guid: ccced8c5e0d1bc945851dd4a46c6b15f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 3b9405e72b29d964b855057aaf0f2227, type: 3}
+        m_Texture: {fileID: 2800000, guid: f2c7eb783037bfa41af5d0e1624730af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -59,11 +59,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 21756d9acc991cf4abbb2fc21d46c353, type: 3}
+        m_Texture: {fileID: 2800000, guid: ccced8c5e0d1bc945851dd4a46c6b15f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 0e8c22fc1551af0499c20b2fc88cf294, type: 3}
+        m_Texture: {fileID: 2800000, guid: f8af43a1075b41844955d18a29097388, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -71,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 94e0c027a45b516488c2996046f25c6c, type: 3}
+        m_Texture: {fileID: 2800000, guid: b05ccb27c3b8bc14596f487f7d5a8df9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
