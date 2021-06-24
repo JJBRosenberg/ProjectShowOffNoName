@@ -5196,6 +5196,7 @@ MonoBehaviour:
   inTrigger: 0
   itemContainer: {fileID: 87122403}
   screwDriver: {fileID: 11400000, guid: a69cc683acbd4ce4ab5b96c66ad70e1e, type: 2}
+  gluedcoin: {fileID: 0}
   boxy: {fileID: 0}
   PLS: {fileID: 0}
 --- !u!1 &489898509
@@ -7919,7 +7920,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734454765}
-  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
+  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10388,7 +10389,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
+  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -12478,6 +12479,7 @@ MonoBehaviour:
   inTrigger: 0
   itemContainer: {fileID: 87122403}
   screwDriver: {fileID: 11400000, guid: a69cc683acbd4ce4ab5b96c66ad70e1e, type: 2}
+  gluedcoin: {fileID: 11400000, guid: f9995c25381dbbc4da0fdaa5c70f73bc, type: 2}
   boxy: {fileID: 1080235287}
   PLS: {fileID: 476803103}
 --- !u!65 &1080235287
@@ -20401,17 +20403,17 @@ PrefabInstance:
     - target: {fileID: 7097859052711778166, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07726748
+      value: 0.077267505
       objectReference: {fileID: 0}
     - target: {fileID: 7097859052711778166, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.81266886
+      value: 0.8126688
       objectReference: {fileID: 0}
     - target: {fileID: 7097859052711778166, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.110773526
+      value: -0.11077352
       objectReference: {fileID: 0}
     - target: {fileID: 7097859052711778169, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
@@ -20446,17 +20448,17 @@ PrefabInstance:
     - target: {fileID: 7097859053118320521, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07726748
+      value: 0.077267505
       objectReference: {fileID: 0}
     - target: {fileID: 7097859053118320521, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.81266886
+      value: 0.8126688
       objectReference: {fileID: 0}
     - target: {fileID: 7097859053118320521, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.110773526
+      value: -0.11077352
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7097859052212906518, guid: 3da897100f778f8418758c699d51900d, type: 3}

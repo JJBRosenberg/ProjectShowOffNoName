@@ -10,6 +10,7 @@ public class DoorScript : MonoBehaviour
     public bool inTrigger;
     public ItemContainer itemContainer;
     [SerializeField] Item screwDriver;
+    [SerializeField] Item gluedcoin;
     [SerializeField] BoxCollider boxy;
     private bool glueGone; 
     public MeshRenderer PLS;
@@ -45,7 +46,7 @@ public class DoorScript : MonoBehaviour
             if (close)
             {
                 //if the player has the key
-                if (itemContainer.ContainsItem(screwDriver))
+                if (itemContainer.ContainsItem(screwDriver) || itemContainer.ContainsItem(gluedcoin))
                 {
                     //if the player presses E
                     if (Input.GetKeyDown(KeyCode.E))
