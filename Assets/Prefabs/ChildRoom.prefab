@@ -4053,6 +4053,9 @@ MonoBehaviour:
   phoneScreen: {fileID: 0}
   tablet: {fileID: 0}
   computer: {fileID: 0}
+  firstModel: {fileID: 0}
+  secondModel: {fileID: 0}
+  thirdModel: {fileID: 0}
   time: 300
 --- !u!114 &3770416157919777234
 MonoBehaviour:
