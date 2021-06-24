@@ -344,10 +344,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../Gitkraken Project/ProjectShowOffNoName/Assets/FMOD file/Educational
-    game/Educational game.fspro
-  sourceBankPath: ../../Gitkraken Project/ProjectShowOffNoName/Assets/FMOD file/Educational
-    game/Build
+  sourceProjectPath: Assets/FMOD file/Educational game/Educational game.fspro
+  sourceBankPath: Assets/FMOD file/Educational game/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -368,8 +366,7 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
