@@ -16,15 +16,15 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          : Hamster sounds (000002086CD5BC28)
-[LOG] SoundI::release                          :     Hamster sounds (00000207F0E1C318)
-[LOG] SoundI::release                          :     Hamster sounds (000002086CD5ED18)
-[LOG] SoundI::release                          : Lobby Time (000002086CD5A2D8)
-[LOG] SoundI::release                          :     Lobby Time (00000207F0E1C178)
-[LOG] SoundI::release                          :     Lobby Time (000002086CD609C8)
+[LOG] SoundI::release                          : Hamster sounds (000002086CD5D068)
+[LOG] SoundI::release                          :     Hamster sounds (00000207F0E1C178)
+[LOG] SoundI::release                          :     Hamster sounds (000002086CD5D578)
+[LOG] SoundI::release                          : Lobby Time (000002086CD5D218)
+[LOG] SoundI::release                          :     Lobby Time (00000207F0E1BFD8)
+[LOG] SoundI::release                          :     Lobby Time (000002086CD5D3C8)
 [LOG] SoundI::release                          : Aquarium water (000002086CD5B8C8)
 [LOG] SoundI::release                          :     Aquarium water (00000207F0E1BE38)
-[LOG] SoundI::release                          :     Aquarium water (000002086CD5EB68)
+[LOG] SoundI::release                          :     Aquarium water (000002086CD5E4A8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

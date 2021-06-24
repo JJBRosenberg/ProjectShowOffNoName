@@ -119,7 +119,7 @@ public class DetectPlayer : MonoBehaviour
                     }
                     else
                     {
-                        chest.SetActive(false);
+                        isChest = false;
                         isToys = false;
                     }
                 
