@@ -7,33 +7,33 @@ using DentedPixel;
 public class Bar : MonoBehaviour
 {
     public GameObject bar;
-    public GameObject firstCamera;
-    public GameObject secondCamera;
-    public GameObject thirdCamera;
+    public GameObject phoneScreen;
+    public GameObject tablet;
+    public GameObject computer;
     public GameObject firstModel;
     public GameObject secondModel;
     public GameObject thirdModel;
-    private bool firstTurned;
-    private bool secondTurned;
-    private bool thirdTurned;
-    public float time;
+    public int time;
     private GameObject phone;
     private bool gottenPhone;
     private bool gottenTablet;
     private bool gottenComputer;
     private int maxAnxiety = 20;
     private bool isPhonedUsed;
-    void Start()
+    private void Start()
     {
         AnimateBar();
 
+        phone = GameObject.FindWithTag("Phone");
     }
-    
+
     private void Update()
     {
         CheckForItems();
+        OpenItems();
+        CloseItems();
         Lost();
-        CheckTime();
+        //CheckTime();
     }
     public void phoneClicked()
     {
@@ -53,7 +53,7 @@ public class Bar : MonoBehaviour
 
     public void Lost()
     {
-        if (Time.time >= 300)
+        if (Time.time >= time)
         {
             SceneManager.LoadScene("Loss Scene");
         }
@@ -78,6 +78,23 @@ public class Bar : MonoBehaviour
 
     }
 
+    void OpenItems()
+    {
+        if (gottenPhone == true && Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            phoneScreen.gameObject.SetActive(true);
+        }
+
+        if (gottenTablet == true && Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            tablet.gameObject.SetActive(true);
+        }
+
+        if (gottenComputer == true && Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            computer.gameObject.SetActive(true);
+        }
+    }
     IEnumerator TimerCoroutine()
     {
 
@@ -92,56 +109,37 @@ public class Bar : MonoBehaviour
 
     public void CheckTime()
     {
-        
-        Debug.Log(Time.time);
-        if (Time.time <100 && !firstTurned)
+        if (time <100)
         {
             firstModel.gameObject.SetActive(true);
             secondModel.gameObject.SetActive(false);
             thirdModel.gameObject.SetActive(false);
-            firstCamera.SetActive(true);
-            secondCamera.SetActive(false);
-            thirdCamera.SetActive(false);
-            firstTurned = true;
-            secondTurned = false;
-            thirdTurned = false;
         }
-        
-        if (Time.time >= 100 && Time.time < 200 && !secondTurned)
+
+        if (time >= 100 && time < 200)
         {
             firstModel.gameObject.SetActive(false);
-            thirdModel.gameObject.SetActive(false);
-            secondModel.transform.localPosition = firstModel.transform.localPosition;
-            secondModel.transform.position = firstModel.transform.position;
-            secondModel.transform.rotation = firstModel.transform.rotation;
-            secondModel.transform.rotation = firstModel.transform.rotation;
             secondModel.gameObject.SetActive(true);
-            firstCamera.SetActive(false);
-            secondCamera.SetActive(true);
-            thirdCamera.SetActive(false);
-            firstTurned = false;
-            secondTurned = true;
-            thirdTurned = false;
-
+            thirdModel.gameObject.SetActive(false);
         }
-        if (Time.time >= 200 && !thirdTurned)
+        if (time >= 200)
         {
-            firstModel.gameObject.SetActive(false);
+            firstModel.gameObject.SetActive(true);
             secondModel.gameObject.SetActive(false);
-            thirdModel.transform.localPosition = secondModel.transform.localPosition;
-            thirdModel.transform.position = secondModel.transform.position;
-            thirdModel.transform.rotation = secondModel.transform.rotation;
-            thirdModel.transform.rotation = secondModel.transform.rotation;
             thirdModel.gameObject.SetActive(true);
-            firstCamera.SetActive(false);
-            secondCamera.SetActive(false);
-            thirdCamera.SetActive(true);
-            firstTurned = false;
-            secondTurned = false;
-            thirdTurned = true;
         }
 
 
+    }
+    void CloseItems()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            phoneScreen.gameObject.SetActive(false);
+            tablet.gameObject.SetActive(false);
+            tablet.gameObject.SetActive(false);
+
+        }
     }
     
 }
