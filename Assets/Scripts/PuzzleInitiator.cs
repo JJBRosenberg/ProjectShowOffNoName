@@ -8,6 +8,8 @@ public class PuzzleInitiator : MonoBehaviour
 	public DetectPlayer detect;
 	private bool isOpened;
     [SerializeField] private SlidingPuzzle puzzle;
+	[SerializeField] private ItemContainer inventory;
+	[SerializeField] private Item coin1;
 	public GameObject blockCoin;
 
 	private void Start()
@@ -37,6 +39,6 @@ public class PuzzleInitiator : MonoBehaviour
 	public void OnPuzzleSolved() 
 	{
 		Debug.Log("Coinsss");
-		blockCoin.SetActive(true);
+		inventory.AddItem(coin1);
 	}
 }
