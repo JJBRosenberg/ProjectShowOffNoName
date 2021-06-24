@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class hamsterCage : MonoBehaviour
 {
-    [SerializeField] private bool isInRange;
+    [SerializeField] private bool isInRange = false;
     [SerializeField] private Item carrot;
     [SerializeField] private Item hamster;
     [SerializeField] private GameObject itemToDestory;
@@ -14,6 +14,16 @@ public class hamsterCage : MonoBehaviour
     {
         takeCage(itemContainer);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        isInRange = true;
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        isInRange = false;
+    }
+
 
     public void takeCage(IItemContainer itemContainer)
     {

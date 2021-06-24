@@ -26,7 +26,6 @@ public class DoorKey : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 //Pick up the key
-                DoorScript.doorKey = true;
                 Destroy(this.gameObject);
             }
         }

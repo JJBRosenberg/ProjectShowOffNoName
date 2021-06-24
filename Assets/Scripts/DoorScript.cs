@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
-    public static bool doorKey;
+    public  bool doorKey;
     public bool open;
     public bool close;
     public bool inTrigger;
-    public GameObject firstCoin;
-    public GameObject secondCoin;
-    public GameObject glue;
-    public GameObject finishedCoin;
-    public GameObject firstCoinIcon;
-    public GameObject secondCoinIcon;
-    public GameObject glueIcon;
+    public ItemContainer itemContainer;
+    [SerializeField] Item screwDriver;
     private bool glueGone;
 
 
@@ -37,15 +32,6 @@ public class DoorScript : MonoBehaviour
 
     private void Update()
     {
-        if (firstCoin == null && secondCoin == null && glueGone)
-        {
-            
-            doorKey = true;
-            finishedCoin.SetActive(true);
-            firstCoinIcon.SetActive(false);
-            secondCoinIcon.SetActive(false);
-            glueIcon.SetActive(false);
-        }
         //if the player is close to the door
         if (inTrigger)
         {
@@ -53,7 +39,7 @@ public class DoorScript : MonoBehaviour
             if (close)
             {
                 //if the player has the key
-                if (doorKey)
+                if (itemContainer.ContainsItem(screwDriver))
                 {
                     //if the player presses E
                     if (Input.GetKeyDown(KeyCode.E))
@@ -74,13 +60,13 @@ public class DoorScript : MonoBehaviour
             if (open)
             {
                 //Closes the door
-                var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, -90.0f, 0.0f), Time.deltaTime * 200);
+                var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 200);
                 transform.rotation = newRot;
             }
             else
             {
                 //oopens the door
-                var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 180.0f, 0.0f), Time.deltaTime * 200);
+                var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 0.0f, 0.0f), Time.deltaTime * 200);
                 transform.rotation = newRot;
             }
 

@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001562BA52E08 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000208F2DB7068 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,34 +16,15 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          : Hamster sounds (0000015603B13ED8)
-[LOG] SoundI::release                          :     Hamster sounds (0000015320F3D0D8)
-[LOG] SoundI::release                          :     Hamster sounds (000001562BB32628)
-[LOG] SoundI::release                          : Aquarium water (0000015324A0D068)
-[LOG] SoundI::release                          :     Aquarium water (0000015320F3E458)
-[LOG] SoundI::release                          :     Aquarium water (000001562BB32478)
-[LOG] SystemI::createSound                     : filename = Assets/FMOD file/Educational game/Build\Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000015328244198 : node = 0000015326D61E70
-[LOG] SystemI::createSound                     : add node to async list : head = 0000015320AC9AD8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000015328244198
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMOD file/Educational game/Build\Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4313280
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 19424
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000015326D61F80
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Lobby Time', format=5, channels=2, frequency=48000, lengthbytes=2505696, lengthpcm=9273678, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000015328244198
-[LOG] SoundI::release                          : Lobby Time (0000015603B14238)
-[LOG] SoundI::release                          :     Lobby Time (0000015320F3D8F8)
-[LOG] SoundI::release                          :     Lobby Time (000001562BB32118)
-[LOG] SoundI::release                          : Lobby Time (0000015328244198)
-[LOG] SoundI::release                          :     Lobby Time (00000153203D1238)
-[LOG] SoundI::release                          :     Lobby Time (00000155CD35C718)
+[LOG] SoundI::release                          : Hamster sounds (000002086CD547B8)
+[LOG] SoundI::release                          :     Hamster sounds (00000208CB6EDFF8)
+[LOG] SoundI::release                          :     Hamster sounds (000002086CD54968)
+[LOG] SoundI::release                          : Lobby Time (000002086CD53A38)
+[LOG] SoundI::release                          :     Lobby Time (00000208CB6ED638)
+[LOG] SoundI::release                          :     Lobby Time (000002086CD55028)
+[LOG] SoundI::release                          : Aquarium water (000002086CD56E88)
+[LOG] SoundI::release                          :     Aquarium water (00000208CB6ECAD8)
+[LOG] SoundI::release                          :     Aquarium water (000002086CD562B8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
