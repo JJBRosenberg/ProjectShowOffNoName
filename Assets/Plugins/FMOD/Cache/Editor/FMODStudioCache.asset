@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/Interaction sounds/Hamster Happy
   guid: a3b49ad5d366094097182ce3b6d409b0
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: event:/Action sounds/Open phone
   guid: 447fa1eeff67e744affc892b609f7317
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
   Path: event:/Interaction sounds/Metal pickup sound
   guid: 5eb57b553e4c4e48a708c37386766072
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -84,7 +84,7 @@ MonoBehaviour:
   Path: event:/Action sounds/Crafting
   guid: f93d1f2569d58c4e8b4d4d00777a3e2c
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -130,7 +130,7 @@ MonoBehaviour:
   Path: 'event:/Interaction sounds/Chest opening sound '
   guid: d30ddc3529044345914446c309ea3878
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
   Path: event:/Interaction sounds/Door opening
   guid: edf077da8265f540bf3cf79fd1a5e36d
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -245,12 +245,12 @@ MonoBehaviour:
   Path: event:/Ambience sounds/Background music
   guid: b7ea66ecf451784baf19a2f95385930f
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 758236011850510688}
+  - {fileID: 7503123861604851002}
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
@@ -297,7 +297,7 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1480
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3328438137399135686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,7 +313,7 @@ MonoBehaviour:
   Path: event:/Action sounds/Pick up
   guid: fb1b977ab2cc1441961fdf48601cc0af
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -471,7 +471,7 @@ MonoBehaviour:
   Path: event:/Ambience sounds/Aquarium Ambience
   guid: 9851b9a4f125fe4fa9aefc1b14afb8fc
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -514,7 +514,7 @@ MonoBehaviour:
   Path: event:/Interaction sounds/Key pickup sound
   guid: c650908e650ffa43ba34b441fcf968b5
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -558,8 +558,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4434610857921641713}
-  - {fileID: 337250790551103081}
+  - {fileID: 1092336379738328000}
+  - {fileID: 1033343789052609085}
   EditorEvents:
   - {fileID: -7704426389699746508}
   - {fileID: -7113473001018868360}
@@ -577,9 +577,9 @@ MonoBehaviour:
   - {fileID: -3328438137399135686}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   StringsBanks:
-  - {fileID: -4434610857921641713}
+  - {fileID: 1092336379738328000}
   stringsBankWriteTime: 637594569439294759
   cacheVersion: 6
 --- !u!114 &337250790551103081
@@ -600,7 +600,7 @@ MonoBehaviour:
   lastModified: 637594569439264836
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &418659092434079708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,6 +640,48 @@ MonoBehaviour:
   ID:
     data1: 0
     data2: 0
+  Exists: 0
+--- !u!114 &1033343789052609085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Gitkraken Project/ProjectShowOffNoName/Assets/FMOD file/Educational
+    game/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637594569439264836
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1092336379738328000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Gitkraken Project/ProjectShowOffNoName/Assets/FMOD file/Educational
+    game/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637594569439294759
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1480
   Exists: 1
 --- !u!114 &1165302582777205717
 MonoBehaviour:
@@ -677,7 +719,7 @@ MonoBehaviour:
   Path: event:/Action sounds/Notification sound
   guid: a3610cf11e4a234d8c45b6efbb3f4860
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -700,7 +742,7 @@ MonoBehaviour:
   Path: event:/Ambience sounds/Hamster Ambience
   guid: 90a8d6910c3b7c458f31465d48aa945a
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -731,6 +773,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &7503123861604851002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1907611754
+    data2: 3707681273
+  Exists: 1
 --- !u!114 &7564605312465980393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -769,7 +831,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: df3c294626935945989213c8311d97f1
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -792,7 +854,7 @@ MonoBehaviour:
   Path: 'event:/Action sounds/Unscrewing '
   guid: 901498d57d6e7d47b4968e8081bcdb8d
   Banks:
-  - {fileID: 337250790551103081}
+  - {fileID: 1033343789052609085}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

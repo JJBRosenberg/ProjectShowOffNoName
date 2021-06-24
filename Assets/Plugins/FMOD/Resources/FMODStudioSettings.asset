@@ -344,8 +344,10 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/FMOD file/Educational game/Educational game.fspro
-  sourceBankPath: Assets/FMOD file/Educational game/Build
+  sourceProjectPath: ../../Gitkraken Project/ProjectShowOffNoName/Assets/FMOD file/Educational
+    game/Educational game.fspro
+  sourceBankPath: ../../Gitkraken Project/ProjectShowOffNoName/Assets/FMOD file/Educational
+    game/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
