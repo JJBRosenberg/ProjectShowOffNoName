@@ -2839,7 +2839,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a42826b6aa636594197deb98cd0741e9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 587fc01ecfe30fd4d91a2624730163bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4661,7 +4661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f364a21b57133b46a87f344fb8c5369, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 437e3cfb343ac0249867b084e64d0fc2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4736,7 +4736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 38e917570bd763a4faad67449f36f198, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec7577f30391d9f4a9faa90112d0eb5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6472,7 +6472,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd56af4aecf3efb4a89ad070738a2c9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a9c832fe292f8cb458886ff233039cdd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7125,7 +7125,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5524017, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7141,7 +7141,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734454765}
-  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
+  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -9338,7 +9338,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.07726746, y: 0.81266904, z: -0.11077356, w: 0.566858}
+  m_LocalRotation: {x: 0.07726746, y: 0.8126691, z: -0.11077357, w: 0.56685793}
   m_LocalPosition: {x: 12.59801, y: 1.179, z: 19.094398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -12057,7 +12057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c2c86b07a015dc947a21e07810b0aa81, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c550a82c3a571a7439a7853a4de0779d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16065,7 +16065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 062365e1cd97e7246b3ba2e345fffb81, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b821d6c1f4a122a4fb0cd8311cc55b1e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17875,7 +17875,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ab167caa6c967041bbabdae1f0496d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae697c8f67c24fb41b9f4a68530b9e34, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18564,17 +18564,17 @@ PrefabInstance:
     - target: {fileID: 7097859053118320521, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07726748
+      value: 0.077267505
       objectReference: {fileID: 0}
     - target: {fileID: 7097859053118320521, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.81266886
+      value: 0.8126688
       objectReference: {fileID: 0}
     - target: {fileID: 7097859053118320521, guid: 3da897100f778f8418758c699d51900d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.110773526
+      value: -0.11077352
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7097859052212906518, guid: 3da897100f778f8418758c699d51900d, type: 3}
@@ -21030,7 +21030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 210ed9f3d46661c4b9aaa7e6fa59d30d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 708eb389d0e2bf44a886ef12c2422c6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
