@@ -208,11 +208,11 @@ MonoBehaviour:
   Path: Assets/FMOD file/Educational game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637594526006273082
+  lastModified: 637601599248097711
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1492
+    Value: 1562
   Exists: 1
 --- !u!114 &-4298886006112796588
 MonoBehaviour:
@@ -300,7 +300,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -7530816492568367638}
+  - {fileID: 1218796383094982333}
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
@@ -354,12 +354,13 @@ MonoBehaviour:
   - {fileID: 3127301951549651998}
   - {fileID: -4298886006112796588}
   - {fileID: 2649915201059242224}
+  - {fileID: 943567433285412769}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2559875317278011714}
   StringsBanks:
   - {fileID: -4576285678862419923}
-  stringsBankWriteTime: 637594526006273082
+  stringsBankWriteTime: 637601599248097711
   cacheVersion: 6
 --- !u!114 &478527911314085082
 MonoBehaviour:
@@ -384,6 +385,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 520
+--- !u!114 &943567433285412769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience sounds/Background music Lower version losing screen
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience sounds/Background music Lower version losing screen
+  guid: 4a2faf073e03f14f8e7603319fd15005
+  Banks:
+  - {fileID: 2559875317278011714}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4270429950680358464}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 193201
 --- !u!114 &1004346342179167496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,6 +432,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1150
+--- !u!114 &1218796383094982333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1783753979624678168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,7 +487,7 @@ MonoBehaviour:
   Path: Assets/FMOD file/Educational game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637594526006053466
+  lastModified: 637601599248067780
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -538,6 +583,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &4270429950680358464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music Lower version losing screen/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5123730849110676910
 MonoBehaviour:
   m_ObjectHideFlags: 0
