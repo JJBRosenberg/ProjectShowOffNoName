@@ -12,10 +12,7 @@ public class Character : MonoBehaviour
     private BaseItemSlot draggedSlot;
     private void Start()
     {
-        inventory.OnBeginDragEvent += OnBeginDrag;
-        inventory.OnEndDragEvent += OnEndDrag;
-        inventory.OnDragEvent += OnDrag;
-        inventory.OnDropEvent += OnDrop;
+
     }
 
     private void OnBeginDrag(BaseItemSlot itemSlot)
