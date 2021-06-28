@@ -102,19 +102,13 @@ public class DetectPlayer : MonoBehaviour
 
     private void ifChest()
     {
-        if (Input.GetKeyDown(KeyCode.F) && inside == true)
+        if (Input.GetKeyDown(KeyCode.E) && inside == true)
         {
-            Debug.Log("!");
             if (item == "Chest")
             {
-                Debug.Log("2");
-               
                     if (isToys != true)
                     {
-                        Debug.Log("CHest");
                         isToys = true;
-                        //chest.SetActive(true);
-                        //show puzzle
                         isChest = true;
                     }
                     else
@@ -125,6 +119,8 @@ public class DetectPlayer : MonoBehaviour
                 
             }
         }
+        if (item == "Chest" && !inside)
+            isToys = false;
     }
 
     private void ifCage()

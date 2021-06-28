@@ -45,6 +45,11 @@ public class LookUnderBed : ItemContainer
             isOpened = false;
             Debug.Log("closed");
         }
+        if (!isInRange)
+            underBed.SetActive(false);
+        underBedNoHamster.SetActive(false);
+        underBedNoHamsterNoscrewDriver.SetActive(false);
+        isOpened = false;
     }
     IEnumerator itHappened()
     {
