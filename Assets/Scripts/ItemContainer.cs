@@ -8,6 +8,20 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 
 
 
+	public virtual bool CanAddItem(Item item, int amount = 1)
+	{
+		int freeSpaces = 0;
+
+		foreach (ItemSlot itemSlot in itemSlots)
+		{
+			if (itemSlot.Item == null || itemSlot.Item.ID == item.ID)
+			{
+				freeSpaces += item.MaximumStacks - itemSlot.Amount;
+			}
+		}
+		return freeSpaces >= amount;
+	}
+
 	//adds the items to the inventory panel
 	public virtual bool AddItem(Item item)
 	{
