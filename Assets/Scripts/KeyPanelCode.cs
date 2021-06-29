@@ -6,6 +6,8 @@ public class KeyPanelCode : MonoBehaviour
 {
     public static bool isKeyPanelopen = false;
     public static bool isColorPanelopen = false;
+    public ItemContainer inventory;
+    [SerializeField] Item safeKey;
     [SerializeField] GameObject codePanel;
     [SerializeField] GameObject closedSafe;
     [SerializeField] GameObject openSafe;
@@ -16,13 +18,21 @@ public class KeyPanelCode : MonoBehaviour
         closedSafe.SetActive(true);
         openSafe.SetActive(false);
     }
+
+    private void FixedUpdate()
+    {
+        Debug.Log(isKeyPanelopen + "1");
+        Debug.Log(isColorPanelopen + "2");
+        Debug.Log(inventory.ContainsItem(safeKey) + "3");
+    }
     private void Update()
     {
-        if (isKeyPanelopen && isColorPanelopen)
+        if (isKeyPanelopen && isColorPanelopen && inventory.ContainsItem(safeKey))
         {
             codePanel.SetActive(false);
             closedSafe.SetActive(false);
             openSafe.SetActive(true);
+            Debug.Log("opened");
         }
     }
 

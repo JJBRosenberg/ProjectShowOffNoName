@@ -4,7 +4,7 @@ public class PickUpItem : MonoBehaviour
 {
     [SerializeField] Item item;
     [SerializeField] public GameObject itemModel;
-    [SerializeField] Inventory inventory;
+    public Inventory inventory;
     [SerializeField] int amount = 1;
     private bool isInRange;
     private bool isEmpty;

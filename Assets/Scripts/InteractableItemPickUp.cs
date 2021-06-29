@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class hamsterCage : MonoBehaviour
+public class InteractableItemPickUp : MonoBehaviour
 {
     [SerializeField] private bool isInRange = false;
-    [SerializeField] private Item carrot;
-    [SerializeField] private Item hamster;
+    [SerializeField] private Item key;
     [SerializeField] private GameObject itemToDestory;
-    public ItemContainer itemContainer;
+    [SerializeField] ItemContainer itemContainer;
 
     private void Update()
     {
@@ -27,10 +26,9 @@ public class hamsterCage : MonoBehaviour
 
     public void takeCage(IItemContainer itemContainer)
     {
-        if (itemContainer.ContainsItem(carrot) && isInRange && Input.GetKeyDown(KeyCode.E))
+        if (isInRange && Input.GetKeyDown(KeyCode.E))
         {
-            itemContainer.AddItem(hamster);
-            itemContainer.RemoveItem(carrot);
+            itemContainer.AddItem(key);
             Destroy(itemToDestory);
         }
     }
