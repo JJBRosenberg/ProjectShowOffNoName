@@ -10,26 +10,11 @@ public class Inventory : ItemContainer
     [SerializeField] Item[] startingItems;
     [SerializeField] Transform itemsParent;
 
-    public event Action<BaseItemSlot> OnBeginDragEvent;
-    public event Action<BaseItemSlot> OnEndDragEvent;
-    public event Action<BaseItemSlot> OnDragEvent;
-    public event Action<BaseItemSlot> OnDropEvent;
-    public event Action<BaseItemSlot> OnPointerEnterEvent;
-    public event Action<BaseItemSlot> OnPointerExitEvent;
-
 
 
     public void Start()
     {
-        for(int i = 0; i < itemSlots.Length; i++)
-        {
-            itemSlots[i].OnPointerEnterEvent += OnPointerEnterEvent;
-            itemSlots[i].OnPointerExitEvent += OnPointerExitEvent;
-            itemSlots[i].OnBeginDragEvent += OnBeginDragEvent;
-            itemSlots[i].OnEndDragEvent += OnEndDragEvent;
-            itemSlots[i].OnDragEvent += OnDragEvent;
-            itemSlots[i].OnDropEvent += OnDropEvent;
-        }
+        
         SetStartingItems();
     }
 

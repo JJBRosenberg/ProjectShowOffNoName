@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Halfcoin+glue
   m_EditorClassIdentifier: 
   Materials:
-  - Item: {fileID: 11400000, guid: c6455c9e51c862144add0fd10671ef74, type: 2}
+  - Item: {fileID: 11400000, guid: c7763cff9acd96042b4eb020c303f5b0, type: 2}
     Amount: 1
   - Item: {fileID: 11400000, guid: 324d1051c7172e04586d7403137cfda4, type: 2}
     Amount: 1
