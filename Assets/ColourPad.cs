@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class KeyPanel : MonoBehaviour
+public class ColourPad : MonoBehaviour
 {
     [SerializeField] Text codeText;
     [SerializeField] string input;
@@ -13,9 +13,9 @@ public class KeyPanel : MonoBehaviour
     {
         codeText.text = codeTextValue;
 
-        if(codeTextValue == input)
+        if (codeTextValue == input)
         {
-            KeyPanelCode.isKeyPanelopen = true;
+            KeyPanelCode.isColorPanelopen = true;
         }
 
         if (codeTextValue.Length >= 4)
