@@ -972,7 +972,7 @@ GameObject:
   - component: {fileID: 1719465473}
   - component: {fileID: 1719465472}
   m_Layer: 0
-  m_Name: Background music
+  m_Name: Menu music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Ambience sounds/Background music Lower version losing screen
+  Event: event:/Ambience sounds/Menu music
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
