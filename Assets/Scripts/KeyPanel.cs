@@ -6,27 +6,32 @@ using UnityEngine.UI;
 public class KeyPanel : MonoBehaviour
 {
     [SerializeField] Text codeText;
-    [SerializeField] string input;
+    [SerializeField] string passcode;
     string codeTextValue = "";
 
     private void Update()
     {
         codeText.text = codeTextValue;
-
-        if(codeTextValue == input)
-        {
-            KeyPanelCode.isKeyPanelopen = true;
-        }
-
+        ifCorrect();
+        resetCode();
+    }
+    public void AddDigit(string digit)
+    {
+        codeTextValue += digit;
+    }
+    private void resetCode()
+    {
         if (codeTextValue.Length >= 4)
         {
             codeTextValue = "";
         }
 
     }
-
-    public void AddDigit(string digit)
+    private void ifCorrect()
     {
-        codeTextValue += digit;
+        if (codeTextValue == passcode)
+        {
+            KeyPanelCode.isKeyPanelopen = true;
+        }
     }
 }

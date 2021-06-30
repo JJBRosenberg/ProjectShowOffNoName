@@ -3000,7 +3000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &415683543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16678,7 +16678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeText: {fileID: 441081027}
-  input: 1234
+  passcode: 5732
 --- !u!114 &1887257032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16730,7 +16730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codeText: {fileID: 817153633}
-  input: 1234
+  passcode: 3241
 --- !u!1 &1913396818
 GameObject:
   m_ObjectHideFlags: 0
@@ -19705,4 +19705,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isInRange: 0
   hamster: {fileID: 11400000, guid: 18b1212f40123a34c91faa1547a298cb, type: 2}
-  itemContainer: {fileID: 1864261642}
+  itemContainer: {fileID: 0}

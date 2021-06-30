@@ -95,6 +95,7 @@ public class Bar : MonoBehaviour
         
         if (Time.time <100 && !firstTurned)
         {
+            Debug.Log("first Model");
             firstModel.gameObject.SetActive(true);
             secondModel.gameObject.SetActive(false);
             thirdModel.gameObject.SetActive(false);
@@ -108,11 +109,11 @@ public class Bar : MonoBehaviour
         
         if (Time.time >= 100 && Time.time < 200 && !secondTurned)
         {
+            Debug.Log("Second Model");
             firstModel.gameObject.SetActive(false);
             thirdModel.gameObject.SetActive(false);
             secondModel.transform.localPosition = firstModel.transform.localPosition;
             secondModel.transform.position = firstModel.transform.position;
-            secondModel.transform.rotation = firstModel.transform.rotation;
             secondModel.transform.rotation = firstModel.transform.rotation;
             secondModel.gameObject.SetActive(true);
             firstCamera.SetActive(false);
@@ -125,11 +126,11 @@ public class Bar : MonoBehaviour
         }
         if (Time.time >= 200 && !thirdTurned)
         {
+            Debug.Log("third Model");
             firstModel.gameObject.SetActive(false);
             secondModel.gameObject.SetActive(false);
             thirdModel.transform.localPosition = secondModel.transform.localPosition;
             thirdModel.transform.position = secondModel.transform.position;
-            thirdModel.transform.rotation = secondModel.transform.rotation;
             thirdModel.transform.rotation = secondModel.transform.rotation;
             thirdModel.gameObject.SetActive(true);
             firstCamera.SetActive(false);

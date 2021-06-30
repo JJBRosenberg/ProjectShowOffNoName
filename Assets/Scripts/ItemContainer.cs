@@ -8,7 +8,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 
 
 
-	public virtual bool CanAddItem(Item item, int amount = 1)
+	public  bool CanAddItem(Item item, int amount = 1)
 	{
 		int freeSpaces = 0;
 
@@ -23,7 +23,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 	}
 
 	//adds the items to the inventory panel
-	public virtual bool AddItem(Item item)
+	public  bool AddItem(Item item)
 	{
 		for (int i = 0; i < itemSlots.Length; i++)
 		{
@@ -68,7 +68,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 		return null;
 	}
 	//Checks how many items are i the slot
-	public virtual int ItemCount(Item item)
+	public  int ItemCount(Item item)
 	{
 		int number = 0;
 
@@ -95,7 +95,7 @@ public abstract class ItemContainer : MonoBehaviour, IItemContainer
 		}
 	}
 	//checks if the itemslots are full
-    public virtual bool IsFull()
+    public  bool IsFull()
     {
         for(int i = 0; i < itemSlots.Length; i++)
         {

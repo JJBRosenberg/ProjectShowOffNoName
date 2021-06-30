@@ -20,7 +20,6 @@ public class AnxietyMeter : MonoBehaviour
 
     private void Update()
     {
-        
         if (anxiety < 1)
         {
             spriteRenderer.sprite = newSprite[0];
@@ -60,17 +59,17 @@ public class AnxietyMeter : MonoBehaviour
         isPhonedClicked = !isPhonedClicked;
         if (isPhonedClicked)
         {
-            Debug.Log("start");
             StopCoroutine(reverseTime());
             StartCoroutine(time());
+            Debug.Log("PhoneClicked");
         } else if(!isPhonedClicked)
         {
-            Debug.Log("stop ");
             StopCoroutine(time());
             StartCoroutine(reverseTime());
+            Debug.Log("PhoneUnclicked");
         }
     }
-    IEnumerator time()
+    private IEnumerator time()
     {
         while (isPhonedClicked)
         {
@@ -78,7 +77,7 @@ public class AnxietyMeter : MonoBehaviour
             AnxietyUp();
         }
     }
-    IEnumerator reverseTime()
+    private IEnumerator reverseTime()
     {
         while (!isPhonedClicked)
         {
@@ -89,12 +88,18 @@ public class AnxietyMeter : MonoBehaviour
     void AnxietyUp()
     {
         if(anxiety !< 6)
-        anxiety += 1;
+        {
+            anxiety += 1;
+            Debug.Log("Inreased Anxiety Level");
+        }
     }
 
     void AnxietyDown()
     {
-        Debug.Log("mmmm");
-        anxiety -= 1;
+        if(anxiety > 0)
+        {
+            anxiety -= 1;
+            Debug.Log("Decreased Anxiety Level");
+        }
     }
 }

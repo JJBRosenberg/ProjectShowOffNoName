@@ -11,7 +11,7 @@ public class InteractableItemPickUp : MonoBehaviour
 
     private void Update()
     {
-        takeCage(itemContainer);
+        takeCage();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -24,7 +24,7 @@ public class InteractableItemPickUp : MonoBehaviour
     }
 
 
-    public void takeCage(IItemContainer itemContainer)
+    public void takeCage()
     {
         if (isInRange && Input.GetKeyDown(KeyCode.E))
         {

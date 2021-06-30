@@ -27,7 +27,7 @@ public class CraftingRecipe : ScriptableObject
 		{
 			if (itemContainer.ItemCount(itemAmount.Item) < itemAmount.Amount)
 			{
-				Debug.LogWarning("You don't have the required materials.");
+				Debug.Log("Wrong materials");
 				return false;
 			}
 		}
@@ -62,8 +62,7 @@ public class CraftingRecipe : ScriptableObject
 		{
 			for (int i = 0; i < itemAmount.Amount; i++)
 			{
-				Item oldItem = itemContainer.RemoveItem(itemAmount.Item.ID);
-				oldItem.Destroy();
+				itemContainer.RemoveItem(itemAmount.Item.ID);
 			}
 		}
 	}

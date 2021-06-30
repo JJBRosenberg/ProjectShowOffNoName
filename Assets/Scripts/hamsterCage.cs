@@ -6,11 +6,11 @@ public class hamsterCage : MonoBehaviour
 {
     [SerializeField] private bool isInRange = false;
     [SerializeField] private Item hamster;
-    public ItemContainer itemContainer;
+    [SerializeField] ItemContainer itemContainer;
 
     private void Update()
     {
-        takeCage(itemContainer);
+        takeCage();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -23,7 +23,7 @@ public class hamsterCage : MonoBehaviour
     }
 
 
-    public void takeCage(IItemContainer itemContainer)
+    public void takeCage()
     {
         if ( isInRange && Input.GetKeyDown(KeyCode.E))
         {

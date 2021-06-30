@@ -38,12 +38,11 @@ public class CraftingRecipeUI : MonoBehaviour
 	}
 	public void OnCraftButtonClick()
 	{
-		Debug.Log("Not enough material::::::s");
 		if (craftingRecipe != null && ItemContainer != null)
 		{
             if (!ItemContainer.IsFull())
 			{
-				Debug.Log("ISUCESSl");
+				Debug.Log("Crafted");
 				craftingRecipe.Craft(ItemContainer);
 			}
 			else
