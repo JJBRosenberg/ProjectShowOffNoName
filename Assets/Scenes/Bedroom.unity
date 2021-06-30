@@ -2006,17 +2006,32 @@ PrefabInstance:
     - target: {fileID: 3959497974740252940, guid: d6b4a110d32895b429db556862e566ae,
         type: 3}
       propertyPath: m_Size.x
-      value: 10
+      value: 10.000001
       objectReference: {fileID: 0}
     - target: {fileID: 3959497974740252940, guid: d6b4a110d32895b429db556862e566ae,
         type: 3}
       propertyPath: m_Size.y
-      value: 10
+      value: 9.999996
       objectReference: {fileID: 0}
     - target: {fileID: 3959497974740252940, guid: d6b4a110d32895b429db556862e566ae,
         type: 3}
       propertyPath: m_Size.z
-      value: 40
+      value: 51.53495
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959497974740252940, guid: d6b4a110d32895b429db556862e566ae,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.1949541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959497974740252940, guid: d6b4a110d32895b429db556862e566ae,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.28292271
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959497974740252940, guid: d6b4a110d32895b429db556862e566ae,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 5.4241886
       objectReference: {fileID: 0}
     - target: {fileID: 3959497974740252941, guid: d6b4a110d32895b429db556862e566ae,
         type: 3}
@@ -9318,7 +9333,6 @@ GameObject:
   - component: {fileID: 963194231}
   - component: {fileID: 963194233}
   - component: {fileID: 963194232}
-  - component: {fileID: 963194234}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9527,18 +9541,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &963194234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b20ef5c7e4ca2e34e99a2a605bca0823, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &964658502
 GameObject:
   m_ObjectHideFlags: 0
@@ -9901,7 +9903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e1c30e38abc9114a931c6760bbca24a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c0cde2046636674c98f67b9a711db81, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9945,7 +9947,6 @@ GameObject:
   - component: {fileID: 997185734}
   - component: {fileID: 997185736}
   - component: {fileID: 997185735}
-  - component: {fileID: 997185737}
   m_Layer: 5
   m_Name: Timer Bar
   m_TagString: Untagged
@@ -10016,18 +10017,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997185733}
   m_CullTransparentMesh: 0
---- !u!114 &997185737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997185733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b20ef5c7e4ca2e34e99a2a605bca0823, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1005385765
 GameObject:
   m_ObjectHideFlags: 0
@@ -14975,7 +14964,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3fbfc85aac0d33e448302e0b19560c06,
         type: 3}
       propertyPath: m_Name
-      value: hamster cage
+      value: hamster cage Correct one
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3fbfc85aac0d33e448302e0b19560c06,
         type: 3}
@@ -20915,6 +20904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Model Parent
+      objectReference: {fileID: 0}
+    - target: {fileID: 106854637090139179, guid: 48c34d4094b8a0141a6f10ea85e7693e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5657780889860739685, guid: 48c34d4094b8a0141a6f10ea85e7693e,
         type: 3}

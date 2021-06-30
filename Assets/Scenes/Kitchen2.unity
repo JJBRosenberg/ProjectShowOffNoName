@@ -3943,7 +3943,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e1c30e38abc9114a931c6760bbca24a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c0cde2046636674c98f67b9a711db81, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9781,6 +9781,8 @@ GameObject:
   - component: {fileID: 1157917870}
   - component: {fileID: 1157917872}
   - component: {fileID: 1157917871}
+  - component: {fileID: 1157917874}
+  - component: {fileID: 1157917873}
   m_Layer: 0
   m_Name: pCube1
   m_TagString: Untagged
@@ -9851,6 +9853,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157917869}
   m_Mesh: {fileID: 4068373912626513877, guid: 2af56b9b5a4b5994fa5758e9b7c35f88, type: 3}
+--- !u!114 &1157917873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157917869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9864eb134ca3648b0ea18ecce104a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  cylinder: {fileID: 11400000, guid: 043652e3cae65e74aa1ec34e3a3939e9, type: 2}
+  itemContainer: {fileID: 1864261642}
+  fridgeItem: {fileID: 11400000, guid: f9995c25381dbbc4da0fdaa5c70f73bc, type: 2}
+  timeToWait: 6
+--- !u!65 &1157917874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157917869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 1.8, z: 1.4040687}
+  m_Center: {x: 0, y: 0.9, z: 0.4020344}
 --- !u!1 &1175684678
 GameObject:
   m_ObjectHideFlags: 0

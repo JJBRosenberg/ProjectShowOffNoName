@@ -21,9 +21,6 @@ public class KeyPanelCode : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(isKeyPanelopen + "1");
-        Debug.Log(isColorPanelopen + "2");
-        Debug.Log(inventory.ContainsItem(safeKey) + "3");
     }
     private void Update()
     {
