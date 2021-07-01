@@ -153,16 +153,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  Event: event:/Ambience sounds/Menu music
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &12577050
 Transform:
   m_ObjectHideFlags: 0
@@ -2407,7 +2407,7 @@ RectTransform:
   m_GameObject: {fileID: 2119525789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.948541, y: 0.8383878, z: 0.9666268}
+  m_LocalScale: {x: 2.948541, y: 1.172653, z: 0.9666268}
   m_Children: []
   m_Father: {fileID: 1533695155}
   m_RootOrder: 2
