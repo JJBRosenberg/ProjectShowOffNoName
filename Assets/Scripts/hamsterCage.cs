@@ -28,6 +28,7 @@ public class hamsterCage : MonoBehaviour
         if ( isInRange && Input.GetKeyDown(KeyCode.E))
         {
             itemContainer.AddItem(hamster);
+            GameFeedback.Instance.SetText("Hamster taken!");
         }
     }
 }
