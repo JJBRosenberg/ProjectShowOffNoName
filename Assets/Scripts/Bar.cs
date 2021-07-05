@@ -53,8 +53,9 @@ public class Bar : MonoBehaviour
 
     public void Lost()
     {
-        if (Time.time >= 300)
+        if (Time.time >= time)
         {
+
             SceneManager.LoadScene("Loss Scene");
         }
     }
@@ -111,11 +112,11 @@ public class Bar : MonoBehaviour
         {
             Debug.Log("Second Model");
             firstModel.gameObject.SetActive(false);
-            thirdModel.gameObject.SetActive(false);
-            secondModel.transform.localPosition = firstModel.transform.localPosition;
-            secondModel.transform.position = firstModel.transform.position;
-            secondModel.transform.rotation = firstModel.transform.rotation;
             secondModel.gameObject.SetActive(true);
+            thirdModel.gameObject.SetActive(false);
+            //secondModel.transform.localPosition = firstModel.transform.localPosition;
+            //secondModel.transform.position = firstModel.transform.position;
+            //secondModel.transform.rotation = firstModel.transform.rotation;
             firstCamera.SetActive(false);
             secondCamera.SetActive(true);
             thirdCamera.SetActive(false);

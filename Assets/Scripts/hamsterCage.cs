@@ -7,6 +7,7 @@ public class hamsterCage : MonoBehaviour
     [SerializeField] private bool isInRange = false;
     [SerializeField] private Item hamster;
     [SerializeField] ItemContainer itemContainer;
+    [SerializeField] private Item carrot;
 
     private void Update()
     {
@@ -25,10 +26,19 @@ public class hamsterCage : MonoBehaviour
 
     public void takeCage()
     {
-        if ( isInRange && Input.GetKeyDown(KeyCode.E))
+        if (isInRange && Input.GetKeyDown(KeyCode.E))
         {
-            itemContainer.AddItem(hamster);
-            GameFeedback.Instance.SetText("Hamster taken!");
+            if (itemContainer.ContainsItem(carrot))
+            {
+                itemContainer.AddItem(hamster);
+                itemContainer.RemoveItem(carrot);
+                GameFeedback.Instance.SetText("Hamster taken!");
+            }
+            else
+            {
+                GameFeedback.Instance.SetText("Maybe hes hungry");
+            }
         }
+
     }
 }

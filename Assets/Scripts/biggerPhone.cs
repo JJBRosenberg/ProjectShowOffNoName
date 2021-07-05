@@ -19,7 +19,7 @@ public class biggerPhone : MonoBehaviour
 
         if (!isClicked)
         {
-            image.rectTransform.sizeDelta = new Vector2(130, 260);
+            image.rectTransform.sizeDelta = new Vector2(260, 260);
             transform.Translate(825, 280, 0);
             isClicked = true;
             Debug.Log("Opened");

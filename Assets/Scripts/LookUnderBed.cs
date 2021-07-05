@@ -11,7 +11,7 @@ public class LookUnderBed : ItemContainer
     [SerializeField] ItemContainer itemContainer;
     [SerializeField] Item hamster;
     [SerializeField] Item screwDriver;
-    private bool isOpened = false;
+    [SerializeField] private bool isOpened = false;
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
@@ -46,10 +46,13 @@ public class LookUnderBed : ItemContainer
             Debug.Log("closed");
         }
         if (!isInRange)
+        {
             underBed.SetActive(false);
-        underBedNoHamster.SetActive(false);
-        underBedNoHamsterNoscrewDriver.SetActive(false);
-        isOpened = false;
+            underBedNoHamster.SetActive(false);
+            underBedNoHamsterNoscrewDriver.SetActive(false);
+            isOpened = false;
+        }
+            
     }
     IEnumerator itHappened()
     {

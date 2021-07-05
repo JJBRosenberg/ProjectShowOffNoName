@@ -71,8 +71,6 @@ public class DoorScript : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                PLS.enabled = true;
-                boxy.enabled = true;
                 close = true;
                 open = false;
             }

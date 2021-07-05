@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class otherMovement : MonoBehaviour
+public class othermovement1 : MonoBehaviour
 {
     public float Speed = 3.0F;
     private float slowSpeed;
@@ -43,7 +43,6 @@ public class otherMovement : MonoBehaviour
     {
         this.gameObject.GetComponent<othermovement1>().enabled = true;
     }
-
     public void SmallSpeed()
     {
         Speed = slowSpeed;
