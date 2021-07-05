@@ -54,6 +54,10 @@ public class NextImage : MonoBehaviour
             {
                 ExtraButtons[i].gameObject.SetActive(true);
             }
+            else
+            {
+                ExtraButtons[i].gameObject.SetActive(false);
+            }
         }
     }
 }
