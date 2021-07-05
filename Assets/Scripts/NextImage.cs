@@ -11,7 +11,7 @@ public class NextImage : MonoBehaviour
     //Private objects/variables
     private Image phone;
     private GameObject screen;
-    private int spriteIndex;
+    public int spriteIndex;
 
     void Start()
     {
@@ -23,6 +23,8 @@ public class NextImage : MonoBehaviour
     private void Update()
     {
         hitThisNumber();
+
+        phone.sprite = sprites[spriteIndex];
     }
 
 
@@ -48,7 +50,7 @@ public class NextImage : MonoBehaviour
 
     private void hitThisNumber()
     {
-        for(int i = 0; i < spriteIndex; i ++)
+        for(int i = 0; i < pictureTrigger.Length;   i ++)
         {
             if (spriteIndex == pictureTrigger[i])
             {
@@ -59,5 +61,11 @@ public class NextImage : MonoBehaviour
                 ExtraButtons[i].gameObject.SetActive(false);
             }
         }
+    }
+
+    public void SetIndex(int input)
+    {
+        spriteIndex = input;
+        phone.sprite = sprites[spriteIndex]; // Set the image
     }
 }
