@@ -78,6 +78,18 @@ public class Bar : MonoBehaviour
 
     }
 
+    IEnumerator TimerCoroutine()
+    {
+
+        float anxiety = 0;
+
+        while (anxiety <= maxAnxiety)
+        {
+            anxiety += Time.deltaTime;
+            yield return null;
+        }
+    }
+
     public void CheckTime()
     {
         

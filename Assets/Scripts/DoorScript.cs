@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
-    public  bool doorKey;
+    public bool doorKey;
     public bool open;
     [SerializeField] bool close;
     public bool inTrigger;
@@ -12,7 +12,7 @@ public class DoorScript : MonoBehaviour
     [SerializeField] Item screwDriver;
     [SerializeField] Item gluedcoin;
     [SerializeField] BoxCollider boxy;
-    private bool glueGone; 
+    private bool glueGone;
     public MeshRenderer PLS;
 
     private void Start()
@@ -57,43 +57,29 @@ public class DoorScript : MonoBehaviour
                         open = true;
                     }
                 }
-                
-            }
-            else
-            {
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    PLS.enabled = true;
-                    boxy.enabled = true;
-                    close = true;
-                    open = false;
-                }
-            }
-        }
-        
-        }
-        //Messages telling the player what to do
-        private void OnGUI()
-        {
-            if (inTrigger)
-            {
-                if (open)
-                {
-
-                }
+                //no key
                 else
                 {
-                    if (doorKey)
-                    {
-                    GameFeedback.Instance.SetText("Door is Locked");
-                     }
-                //no key
-                else if (Input.GetKeyDown(KeyCode.E))
-                {
+
                     GameFeedback.Instance.SetText("Door is Locked");
                 }
             }
+
+
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                PLS.enabled = true;
+                boxy.enabled = true;
+                close = true;
+                open = false;
             }
         }
     }
+}
+
+        
+    
 

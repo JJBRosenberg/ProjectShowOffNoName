@@ -35,7 +35,7 @@ public class SpriteSwapper : MonoBehaviour
 
     public void ChangeTheDarnSprite()
     {
-        Debug.Log("yes");
+
         spriteRenderer.sprite = sprite2;
     }
 }
