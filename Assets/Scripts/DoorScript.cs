@@ -57,7 +57,9 @@ public class DoorScript : MonoBehaviour
                         open = true;
                     }
                 }
-            } else
+                
+            }
+            else
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -77,19 +79,20 @@ public class DoorScript : MonoBehaviour
             {
                 if (open)
                 {
-                    GUI.Box(new Rect(0, 460, 200, 25), "Press E to close");
+
                 }
                 else
                 {
                     if (doorKey)
                     {
-                        GUI.Box(new Rect(0, 460, 200, 25), "Press E to open");
-                    }
-                    else
-                    {
-                        GUI.Box(new Rect(0, 460, 200, 25), "Need The Key");
-                    }
+                    GameFeedback.Instance.SetText("Door is Locked");
+                     }
+                //no key
+                else if (Input.GetKeyDown(KeyCode.E))
+                {
+                    GameFeedback.Instance.SetText("Door is Locked");
                 }
+            }
             }
         }
     }
