@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1473252170392816434
+--- !u!114 &-4846845335404855079
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: chair fishtank 2
+  m_Name: SafeClosed
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP
     _OCCLUSIONMAP _PARALLAXMAP
@@ -35,11 +35,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: bc89cf2a7a6d31640931f1b8b9577870, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8f75821abc2c34d4d9b9fe12ac91eef5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: cbaab391015fe924aba224a743e5d848, type: 3}
+        m_Texture: {fileID: 2800000, guid: d3d47aca609f595469e2849708abff77, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -59,19 +59,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: bc89cf2a7a6d31640931f1b8b9577870, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8f75821abc2c34d4d9b9fe12ac91eef5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 42274f7cd8591a048a822892ea213c76, type: 3}
+        m_Texture: {fileID: 2800000, guid: 010f45e3ec09be147a1c546599208b6e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 85884921d64d32d4597a1e9c8980e707, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1023ab00c223c2743b0f4900b7b0a675, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 335026ee13585ca47986aa3373efc7ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: ddfa16ad67ff2b94f89a08882be3c087, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -92,7 +92,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaClip: 0
-    - _Blend: 1
+    - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -106,7 +106,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 3
+    - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
