@@ -129,7 +129,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6800344338570751778}
+  - {fileID: 5696652586596341698}
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
@@ -508,7 +508,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4486216840920667919}
+  - {fileID: 510290992587976526}
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
@@ -594,7 +594,7 @@ MonoBehaviour:
   - {fileID: 654066977774121608}
   StringsBanks:
   - {fileID: 450049675960635810}
-  stringsBankWriteTime: 637613711909676909
+  stringsBankWriteTime: 637613715243179212
   cacheVersion: 6
 --- !u!114 &42973874831208259
 MonoBehaviour:
@@ -675,11 +675,31 @@ MonoBehaviour:
   Path: Assets/FMOD file/Educational game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637613711909676909
+  lastModified: 637613715243179212
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 1714
+  Exists: 1
+--- !u!114 &510290992587976526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &654066977774121608
 MonoBehaviour:
@@ -696,7 +716,7 @@ MonoBehaviour:
   Path: Assets/FMOD file/Educational game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637613711909646993
+  lastModified: 637613715243149273
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -968,6 +988,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 49264
+--- !u!114 &5696652586596341698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music Lower version losing screen/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6868110833005366047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,15 +1044,15 @@ MonoBehaviour:
   m_Name: event:/Ambience sounds/Outside ambience
   m_EditorClassIdentifier: 
   Path: event:/Ambience sounds/Outside ambience
-  guid: aff18a20c293b446b3479d40064d196c
+  guid: 22a43eea2130414c8efb7b90d91232fc
   Banks:
   - {fileID: 654066977774121608}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
+  MinDistance: 1
+  MaxDistance: 20
   Length: 49264
 --- !u!114 &7470689122063733498
 MonoBehaviour:
