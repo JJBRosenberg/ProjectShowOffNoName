@@ -89,6 +89,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-7847527712326672120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music Lower version losing screen/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7276885859285134767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +129,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 7782590685070981486}
+  - {fileID: -7847527712326672120}
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
@@ -448,7 +468,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 1999078577209466274}
+  - {fileID: -520256640135239051}
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
@@ -475,6 +495,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 126521
+--- !u!114 &-520256640135239051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,13 +548,12 @@ MonoBehaviour:
   - {fileID: -5013234042426499616}
   - {fileID: 8644375935495604799}
   - {fileID: -563325203424480083}
-  - {fileID: 5211313011703108022}
   EditorParameters: []
   MasterBanks:
   - {fileID: 654066977774121608}
   StringsBanks:
   - {fileID: 450049675960635810}
-  stringsBankWriteTime: 637613409624309004
+  stringsBankWriteTime: 637613668765901311
   cacheVersion: 6
 --- !u!114 &42973874831208259
 MonoBehaviour:
@@ -595,11 +634,11 @@ MonoBehaviour:
   Path: Assets/FMOD file/Educational game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637613409624309004
+  lastModified: 637613668765901311
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1714
+    Value: 1666
   Exists: 1
 --- !u!114 &654066977774121608
 MonoBehaviour:
@@ -616,7 +655,7 @@ MonoBehaviour:
   Path: Assets/FMOD file/Educational game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637613409624279085
+  lastModified: 637613668765881371
   LoadResult: 0
   FileSizes: []
   Exists: 1
