@@ -94,7 +94,7 @@ public class Bar : MonoBehaviour
     public void CheckTime()
     {
         
-        if (Time.time <100 && !firstTurned)
+        if (Time.time <10 && !firstTurned)
         {
             Debug.Log("first Model");
             firstModel.gameObject.SetActive(true);
@@ -108,15 +108,15 @@ public class Bar : MonoBehaviour
             thirdTurned = false;
         }
         
-        if (Time.time >= 100 && Time.time < 200 && !secondTurned)
+        if (Time.time >= 10 && Time.time < 20 && !secondTurned)
         {
             Debug.Log("Second Model");
+            secondModel.transform.localPosition = firstModel.transform.localPosition;
+            secondModel.transform.position = firstModel.transform.position;
+            secondModel.transform.rotation = firstModel.transform.rotation;
             firstModel.gameObject.SetActive(false);
             secondModel.gameObject.SetActive(true);
             thirdModel.gameObject.SetActive(false);
-            //secondModel.transform.localPosition = firstModel.transform.localPosition;
-            //secondModel.transform.position = firstModel.transform.position;
-            //secondModel.transform.rotation = firstModel.transform.rotation;
             firstCamera.SetActive(false);
             secondCamera.SetActive(true);
             thirdCamera.SetActive(false);
@@ -125,14 +125,14 @@ public class Bar : MonoBehaviour
             thirdTurned = false;
 
         }
-        if (Time.time >= 200 && !thirdTurned)
+        if (Time.time >= 20 && !thirdTurned)
         {
             Debug.Log("third Model");
-            firstModel.gameObject.SetActive(false);
-            secondModel.gameObject.SetActive(false);
             thirdModel.transform.localPosition = secondModel.transform.localPosition;
             thirdModel.transform.position = secondModel.transform.position;
             thirdModel.transform.rotation = secondModel.transform.rotation;
+            firstModel.gameObject.SetActive(false);
+            secondModel.gameObject.SetActive(false);
             thirdModel.gameObject.SetActive(true);
             firstCamera.SetActive(false);
             secondCamera.SetActive(false);
