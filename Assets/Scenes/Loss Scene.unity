@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 1719465473}
   - component: {fileID: 1719465472}
   m_Layer: 0
-  m_Name: Menu music
+  m_Name: Menu losing music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

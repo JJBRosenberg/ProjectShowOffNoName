@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8657424356755335046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction sounds/Metal pickup sound
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction sounds/Metal pickup sound
+  guid: 5eb57b553e4c4e48a708c37386766072
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
 --- !u!114 &-8409857160534723614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,6 +46,73 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &-8384126206763497836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 'event:/Action sounds/Unscrewing '
+  m_EditorClassIdentifier: 
+  Path: 'event:/Action sounds/Unscrewing '
+  guid: 901498d57d6e7d47b4968e8081bcdb8d
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1150
+--- !u!114 &-8246478201824117108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-7276885859285134767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience sounds/Background music Lower version losing screen
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience sounds/Background music Lower version losing screen
+  guid: 4a2faf073e03f14f8e7603319fd15005
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6509481368155027860}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 193201
 --- !u!114 &-6799389124414832857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +181,72 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1602
   Exists: 1
+--- !u!114 &-6509481368155027860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Background music Lower version losing screen/Happiness '
+  m_EditorClassIdentifier: 
+  Name: 'Happiness '
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6131692715034607557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience sounds/Aquarium Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience sounds/Aquarium Ambience
+  guid: 9851b9a4f125fe4fa9aefc1b14afb8fc
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62040
+--- !u!114 &-5979504713529370679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience sounds/Hamster Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience sounds/Hamster Ambience
+  guid: 90a8d6910c3b7c458f31465d48aa945a
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
 --- !u!114 &-5678680453533473290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +270,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 132
+--- !u!114 &-5411929484977763144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  guid: df3c294626935945989213c8311d97f1
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 345
+--- !u!114 &-5013234042426499616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Action sounds/Crafting
+  m_EditorClassIdentifier: 
+  Path: event:/Action sounds/Crafting
+  guid: f93d1f2569d58c4e8b4d4d00777a3e2c
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6000
 --- !u!114 &-4687345126573208161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,6 +359,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3623138540012457909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 'event:/Interaction sounds/Chest opening sound '
+  m_EditorClassIdentifier: 
+  Path: 'event:/Interaction sounds/Chest opening sound '
+  guid: d30ddc3529044345914446c309ea3878
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2150
 --- !u!114 &-2466293500571907862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +428,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1150
+--- !u!114 &-1095181573554665949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience sounds/Background music
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience sounds/Background music
+  guid: b7ea66ecf451784baf19a2f95385930f
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8246478201824117108}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 193201
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,30 +465,30 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -6755897881035060652}
-  - {fileID: 42973874831208259}
+  - {fileID: 450049675960635810}
+  - {fileID: 654066977774121608}
   EditorEvents:
-  - {fileID: 8864304157720585550}
-  - {fileID: -5678680453533473290}
-  - {fileID: 148419179628466231}
-  - {fileID: -6799389124414832857}
-  - {fileID: -1433995836260097614}
-  - {fileID: 2667344863074843295}
-  - {fileID: 6868110833005366047}
-  - {fileID: 3660279894927196591}
-  - {fileID: -2466293500571907862}
-  - {fileID: 4453486931687222240}
-  - {fileID: 5061399787727809151}
-  - {fileID: 7470689122063733498}
-  - {fileID: 4173534710492226805}
-  - {fileID: -8409857160534723614}
-  - {fileID: -6798715521613583691}
-  - {fileID: -4687345126573208161}
+  - {fileID: 7743536581446831167}
+  - {fileID: 7927219726966706411}
+  - {fileID: -7276885859285134767}
+  - {fileID: -8657424356755335046}
+  - {fileID: -8384126206763497836}
+  - {fileID: -5979504713529370679}
+  - {fileID: -6131692715034607557}
+  - {fileID: 8459665241313611147}
+  - {fileID: 3104134944183196916}
+  - {fileID: -1095181573554665949}
+  - {fileID: 3024059249762389487}
+  - {fileID: -3623138540012457909}
+  - {fileID: -5411929484977763144}
+  - {fileID: 4456823737664891875}
+  - {fileID: -5013234042426499616}
+  - {fileID: 8644375935495604799}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 42973874831208259}
+  - {fileID: 654066977774121608}
   StringsBanks:
-  - {fileID: -6755897881035060652}
+  - {fileID: 450049675960635810}
   stringsBankWriteTime: 637606487829148332
   cacheVersion: 6
 --- !u!114 &42973874831208259
@@ -306,6 +555,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &450049675960635810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD file/Educational game/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637606487829148332
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1602
+  Exists: 1
+--- !u!114 &654066977774121608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD file/Educational game/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637606487829118099
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2667344863074843295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +618,52 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &3024059249762389487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction sounds/Key pickup sound
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction sounds/Key pickup sound
+  guid: c650908e650ffa43ba34b441fcf968b5
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 501
+--- !u!114 &3104134944183196916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction sounds/Hamster Happy
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction sounds/Hamster Happy
+  guid: a3b49ad5d366094097182ce3b6d409b0
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 520
 --- !u!114 &3660279894927196591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +734,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 193201
+--- !u!114 &4456823737664891875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction sounds/Door opening
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction sounds/Door opening
+  guid: edf077da8265f540bf3cf79fd1a5e36d
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &5061399787727809151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +826,98 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2150
+--- !u!114 &7743536581446831167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience sounds/Menu music
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience sounds/Menu music
+  guid: 1723676a6f89fe4babd31f0d52d16a10
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 126521
+--- !u!114 &7927219726966706411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Action sounds/Open phone
+  m_EditorClassIdentifier: 
+  Path: event:/Action sounds/Open phone
+  guid: 447fa1eeff67e744affc892b609f7317
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 132
+--- !u!114 &8459665241313611147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Action sounds/Notification sound
+  m_EditorClassIdentifier: 
+  Path: event:/Action sounds/Notification sound
+  guid: a3610cf11e4a234d8c45b6efbb3f4860
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 470
+--- !u!114 &8644375935495604799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Action sounds/Pick up
+  m_EditorClassIdentifier: 
+  Path: event:/Action sounds/Pick up
+  guid: fb1b977ab2cc1441961fdf48601cc0af
+  Banks:
+  - {fileID: 654066977774121608}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 302
 --- !u!114 &8864304157720585550
 MonoBehaviour:
   m_ObjectHideFlags: 0
