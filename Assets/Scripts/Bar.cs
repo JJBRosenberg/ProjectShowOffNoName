@@ -94,7 +94,7 @@ public class Bar : MonoBehaviour
     public void CheckTime()
     {
         
-        if (Time.time <10 && !firstTurned)
+        if (Time.time <100 && !firstTurned)
         {
             Debug.Log("first Model");
             firstModel.gameObject.SetActive(true);
@@ -108,7 +108,7 @@ public class Bar : MonoBehaviour
             thirdTurned = false;
         }
         
-        if (Time.time >= 10 && Time.time < 20 && !secondTurned)
+        if (Time.time >= 100 && Time.time < 200 && !secondTurned)
         {
             Debug.Log("Second Model");
             secondModel.transform.localPosition = firstModel.transform.localPosition;
@@ -125,7 +125,7 @@ public class Bar : MonoBehaviour
             thirdTurned = false;
 
         }
-        if (Time.time >= 20 && !thirdTurned)
+        if (Time.time >= 200 && !thirdTurned)
         {
             Debug.Log("third Model");
             thirdModel.transform.localPosition = secondModel.transform.localPosition;
