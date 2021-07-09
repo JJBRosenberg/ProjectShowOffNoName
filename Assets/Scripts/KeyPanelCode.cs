@@ -11,9 +11,12 @@ public class KeyPanelCode : MonoBehaviour
     [SerializeField] GameObject codePanel;
     [SerializeField] GameObject closedSafe;
     [SerializeField] GameObject openSafe;
+   
+
 
     private void Start()
     {
+        
         codePanel.SetActive(false);
         closedSafe.SetActive(true);
         openSafe.SetActive(false);
@@ -30,6 +33,7 @@ public class KeyPanelCode : MonoBehaviour
             closedSafe.SetActive(false);
             openSafe.SetActive(true);
             Debug.Log("opened");
+            
         }
     }
 

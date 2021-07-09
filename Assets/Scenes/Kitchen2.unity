@@ -3221,8 +3221,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14.502882, y: 26.314863, z: 25.58514}
-  m_Center: {x: 16.246407, y: -12.569487, z: -170.52652}
+  m_Size: {x: 14.502883, y: 26.314863, z: 42.268734}
+  m_Center: {x: 16.24641, y: -12.569487, z: -162.185}
 --- !u!114 &323408814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15117,7 +15117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &994976120
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17911,6 +17911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: small_metal_box_fixed_wire
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 34f0cadb7f0cc5842a60cf8cfe8acef3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7700982222413022187, guid: 34f0cadb7f0cc5842a60cf8cfe8acef3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -20183,6 +20188,7 @@ MonoBehaviour:
   codePanel: {fileID: 0}
   closedSafe: {fileID: 1601997284}
   openSafe: {fileID: 0}
+  safeCollider: {fileID: 0}
 --- !u!1 &1603021870
 GameObject:
   m_ObjectHideFlags: 0
@@ -20368,6 +20374,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5198174050012816414, guid: 0a83b09bae207034cbff6c18006dde84,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198174050012816414, guid: 0a83b09bae207034cbff6c18006dde84,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -20411,6 +20422,7 @@ MonoBehaviour:
   codePanel: {fileID: 1847380789}
   closedSafe: {fileID: 6719073271160669554}
   openSafe: {fileID: 6719073271160669556}
+  safeCollider: {fileID: 0}
 --- !u!65 &1608705181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22292,6 +22304,7 @@ MonoBehaviour:
   codePanel: {fileID: 994976119}
   closedSafe: {fileID: 1759093007}
   openSafe: {fileID: 1933462594}
+  safeCollider: {fileID: 1759093009}
 --- !u!65 &1759093009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23354,7 +23367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1847380790
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26906,6 +26919,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puzzle
       objectReference: {fileID: 0}
+    - target: {fileID: 6719073269136760391, guid: efa31063d6ba13149a333242a25c5684,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6719073269136760392, guid: efa31063d6ba13149a333242a25c5684,
         type: 3}
       propertyPath: m_RootOrder
@@ -27187,6 +27205,7 @@ MonoBehaviour:
   codePanel: {fileID: 1847380789}
   closedSafe: {fileID: 6719073271160669554}
   openSafe: {fileID: 6719073271160669553}
+  safeCollider: {fileID: 0}
 --- !u!1 &6719073271160669556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6719073270616245473, guid: efa31063d6ba13149a333242a25c5684,
@@ -27212,7 +27231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6719073271160669560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf2c308137495a54f8c4528f308192b3, type: 3}
   m_Name: 
@@ -27222,3 +27241,4 @@ MonoBehaviour:
   codePanel: {fileID: 1887257029}
   closedSafe: {fileID: 6719073271160669554}
   openSafe: {fileID: 6719073271160669553}
+  safeCollider: {fileID: 0}

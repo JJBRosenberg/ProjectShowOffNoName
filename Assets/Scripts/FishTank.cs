@@ -9,7 +9,6 @@ public class FishTank : MonoBehaviour
     [SerializeField] private bool isInRange;
     [SerializeField] private Item item;
     [SerializeField] private Item itemBack;
-    public bool inTrigger;
     [SerializeField] private GameObject coinToDestory;
     public ItemContainer itemContainer;
     [SerializeField] bool close;
@@ -17,6 +16,7 @@ public class FishTank : MonoBehaviour
     private void Start()
     {
         close = true;
+        isInRange = false;
     }
 
     //Checks if player entered 
