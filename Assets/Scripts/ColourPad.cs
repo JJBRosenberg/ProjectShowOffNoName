@@ -21,7 +21,7 @@ public class ColourPad : MonoBehaviour
     }
     private void resetCode()
     {
-        if (codeTextValue.Length >= 4)
+        if (codeTextValue.Length >= 5)
         {
             codeTextValue = "";
         }
