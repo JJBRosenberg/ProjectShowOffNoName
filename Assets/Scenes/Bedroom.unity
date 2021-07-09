@@ -2859,7 +2859,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32748
+  m_Name: pb_Mesh217438
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9211,8 +9211,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 38.96377, y: 95.85055, z: 9.929151}
-  m_Center: {x: -258.5531, y: 47.425278, z: 304.88577}
+  m_Size: {x: 38.96377, y: 78.479836, z: 3.5589197}
+  m_Center: {x: -258.55344, y: 38.739906, z: 301.70032}
 --- !u!65 &774822409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9224,8 +9224,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 38.96377, y: 49.269276, z: 42.027687}
-  m_Center: {x: -258.5485, y: 24.13464, z: 324.8935}
+  m_Size: {x: 38.96377, y: 43.148994, z: 42.027687}
+  m_Center: {x: -258.54895, y: 21.074497, z: 324.89313}
 --- !u!1 &784356500
 GameObject:
   m_ObjectHideFlags: 0
@@ -18245,7 +18245,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 100}
+  m_SizeDelta: {x: 257.1283, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1530672908
 MonoBehaviour:
@@ -18754,8 +18754,10 @@ MonoBehaviour:
   isInRange: 1
   item: {fileID: 11400000, guid: af136629d73f0d64c9dc39aa0b0bd58f, type: 2}
   itemBack: {fileID: 11400000, guid: c7763cff9acd96042b4eb020c303f5b0, type: 2}
+  inTrigger: 0
   coinToDestory: {fileID: 1959468001}
   itemContainer: {fileID: 87122403}
+  close: 0
 --- !u!65 &1580552372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19268,7 +19270,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -24733,6 +24735,7 @@ GameObject:
   - component: {fileID: 2063986884}
   - component: {fileID: 2063986883}
   - component: {fileID: 2063986882}
+  - component: {fileID: 2063986887}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -34216,6 +34219,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2063986887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063986881}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5911503, y: 2.523026, z: 0.8343792}
+  m_Center: {x: -1.7451534, y: 1.261513, z: -0.27294827}
 --- !u!224 &2064302865 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4654238578599908891, guid: 5915fe6d619af6c4991e73a8be4037b2,
