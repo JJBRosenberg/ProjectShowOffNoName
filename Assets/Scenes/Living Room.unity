@@ -359,8 +359,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 9.6
+  OverrideMinDistance: 0.93952847
+  OverrideMaxDistance: 2.77
 --- !u!4 &25154194
 Transform:
   m_ObjectHideFlags: 0
@@ -369,7 +369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25154192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.665001, y: -0.061100066, z: 14.924}
+  m_LocalPosition: {x: 14.665001, y: -0.061100066, z: 15.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10149,7 +10149,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 9.6
+  OverrideMaxDistance: 4.09
 --- !u!4 &1807044458
 Transform:
   m_ObjectHideFlags: 0
