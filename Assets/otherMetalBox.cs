@@ -11,7 +11,7 @@ public class otherMetalBox : MonoBehaviour
     [SerializeField] private ItemContainer itemContainer;
     [SerializeField] private Item wire;
     [SerializeField] private BoxCollider metalCollider;
-    private bool isOpen;
+    public bool isOpen;
 
     private void Start()
     {
@@ -52,7 +52,7 @@ public class otherMetalBox : MonoBehaviour
         }
     }
 
-    private void ifCorrect()
+    public void ifCorrect()
     {
         isOpen = true;
     }

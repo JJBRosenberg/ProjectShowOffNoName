@@ -7,6 +7,7 @@ public class lastPad : MonoBehaviour
 {
     [SerializeField] Text codeText;
     [SerializeField] string passcode;
+    otherMetalBox otherMetalBox;
     string codeTextValue = "";
 
     private void Update()
@@ -31,7 +32,7 @@ public class lastPad : MonoBehaviour
     {
         if (codeTextValue == passcode)
         {
-            KeyPanelCode.isKeyPanelopen = true;
+            otherMetalBox.ifCorrect();
         }
     }
 }
