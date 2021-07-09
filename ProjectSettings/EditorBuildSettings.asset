@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Living Room.unity
     guid: 88e0435f3f1812c41a52ad19da5eaaf6
+  - enabled: 1
+    path: Assets/Scenes/Winning screen!.unity
+    guid: e650e4b5666f7fa44b0253d9af06225a
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
