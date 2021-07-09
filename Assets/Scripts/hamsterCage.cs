@@ -6,7 +6,7 @@ public class hamsterCage : MonoBehaviour
 {
     [SerializeField] private bool isInRange = false;
     [SerializeField] private Item hamster;
-    [SerializeField] ItemContainer itemContainer;
+    [SerializeField] private ItemContainer itemContainer;
     [SerializeField] private Item carrot;
 
     private void Update()

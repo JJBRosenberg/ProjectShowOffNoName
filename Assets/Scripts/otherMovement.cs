@@ -41,7 +41,7 @@ public class otherMovement : MonoBehaviour
     }
     private void OnEnable()
     {
-        this.gameObject.GetComponent<othermovement1>().enabled = true;
+        this.gameObject.GetComponent<otherMovement>().enabled = true;
     }
 
     public void SmallSpeed()

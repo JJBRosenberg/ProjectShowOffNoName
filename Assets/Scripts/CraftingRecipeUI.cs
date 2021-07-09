@@ -42,18 +42,18 @@ public class CraftingRecipeUI : MonoBehaviour
 		{
             if (!ItemContainer.IsFull())
 			{
-				Debug.Log("Crafted");
+				GameFeedback.Instance.SetText("Crafted");
 				craftingRecipe.Craft(ItemContainer);
 			}
 			else
-            {
-				Debug.Log("Inventory full");
-            }
+			{
+				GameFeedback.Instance.SetText("Inventory Full");
+			}
 		}
 		else
-        {
-			Debug.Log("Not enough materials");
-        }
+		{
+			GameFeedback.Instance.SetText("Not enough materials");
+		}
 	}
 
 	private void SetCraftingRecipe(CraftingRecipe newCraftingRecipe)

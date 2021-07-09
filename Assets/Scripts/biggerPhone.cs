@@ -22,13 +22,13 @@ public class biggerPhone : MonoBehaviour
             image.rectTransform.sizeDelta = new Vector2(260, 260);
             transform.Translate(825, 280, 0);
             isClicked = true;
-            Debug.Log("Opened");
+            GameFeedback.Instance.SetText("Opened");
         } else if (isClicked)
         {
             image.rectTransform.sizeDelta = new Vector2(100, 100) ;
             transform.Translate(-825, -280, 0);
             isClicked = false;
-            Debug.Log("Closed");
+            GameFeedback.Instance.SetText("Closed");
         } 
     }
 

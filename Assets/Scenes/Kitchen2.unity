@@ -4146,12 +4146,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388981151}
   m_CullTransparentMesh: 0
---- !u!1 &389827743 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7fff089ad56ba2d4994ba12b71ae4de5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1896104993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &415683542
 GameObject:
   m_ObjectHideFlags: 0
@@ -34796,7 +34790,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4647619, y: 0.60720617, z: 1.5317882}
   m_Center: {x: -0.015972745, y: -0.24784556, z: -0.6226919}
---- !u!114 &1896104997
+--- !u!114 &1896104996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34805,14 +34799,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1896104994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60ce9e251d0abfc49838043e793f307b, type: 3}
+  m_Script: {fileID: 11500000, guid: 337cbdb26ef5d49479d3ebd046600456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire: {fileID: 11400000, guid: dc9b14e62c92b6f4ab9a294f33268dfa, type: 2}
-  itemContainer: {fileID: 1864261642}
-  firstBox: {fileID: 389827743}
-  secondBox: {fileID: 1759093007}
+  firstSafe: {fileID: 0}
+  secondSafe: {fileID: 0}
+  numberPad: {fileID: 994976119}
   isInRange: 0
+  itemContainer: {fileID: 1864261642}
+  wire: {fileID: 0}
 --- !u!1 &1913396818
 GameObject:
   m_ObjectHideFlags: 0

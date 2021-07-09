@@ -7,8 +7,8 @@ using UnityEngine.Serialization;
 
 public class Inventory : ItemContainer
 {
-    [SerializeField] Item[] startingItems;
-    [SerializeField] Transform itemsParent;
+    [SerializeField] private Item[] startingItems;
+    [SerializeField] private Transform itemsParent;
 
 
 
